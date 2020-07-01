@@ -1,11 +1,16 @@
 import React, {useEffect, useState, useCallback} from 'react';
 import {interpretAnswers} from '../../helpers/interpretAnswers';
 import needs from '../../data/needs.json';
+import ResultsChart from './ResultsChart/ResultsChart';
+
+const answersData = JSON.parse(localStorage.getItem('answers'));
 
 const Results = () => {
     const [results, setResults] = useState();
-    const getFirstTwoNeeds = (results) => {
-        const [firstNeed, secondNeed] = results.sort((a, b) => {
+    const [answers, setAnswers] = useState([]);
+    const [chartSeries, setChartSeries] = useState([]);
+    const getFirstTwoNeeds = (results = []) => {
+        const [firstNeed, secondNeed] = [...results].sort((a, b) => {
             return b.value - a.value
         });
         return {
@@ -14,8 +19,21 @@ const Results = () => {
         }
     }
 
+
+    useEffect(() => {
+      if(!answers.length) {
+          return;
+      }
+        setChartSeries(answers.map((answer) => {
+          return answer.value
+        }));
+    }, [answers]);
+
     const getDisplayResults = useCallback((answers) => {
-        const {firstNeed, secondNeed} = getFirstTwoNeeds(answers);
+        if(!answers.length) {
+            return;
+        }
+        const {firstNeed = {}, secondNeed} = getFirstTwoNeeds(answers);
         const secondNeedData = !!firstNeed.secondNeed ? firstNeed.secondNeed.find(need=> need.id === secondNeed) : {};
         return (
         <div>
@@ -43,22 +61,24 @@ const Results = () => {
         <h4>{secondNeedData.text}</h4>
         <h2>Couples</h2>
         <h4>{secondNeedData.couples.map(couple => (
-           <><h4>{couple.name}</h4>
-        <h4>{couple.text}</h4></> 
+           <><div>{couple.name}</div>
+        <div>{couple.text}</div></> 
         ))}</h4>
         </div>
         );
     }, []);
     
-    useEffect(() => {
-        const answers = JSON.parse(localStorage.getItem('answers'));
-        setResults(getDisplayResults(interpretAnswers(answers)));
+    useEffect(() => {       
+        const interpretedAnswers = interpretAnswers(answersData);
+        setAnswers(interpretedAnswers);
+        setResults(getDisplayResults(interpretedAnswers));
     }, [getDisplayResults]);
 
     return (
         <div>
-            Hello Results
-            {results}
+        <h1>Results</h1>    
+        <ResultsChart series={chartSeries}/>    
+        {results}
         </div>
     );
 };
