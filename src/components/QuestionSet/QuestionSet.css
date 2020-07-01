@@ -1,0 +1,32 @@
+button:disabled {
+    cursor: not-allowed;
+    font-weight: normal;
+    background-color: lightgray;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: lightgreen;
+}
+
+button:first-child {
+    margin-right: 10px;
+}
+
+button:hover:not(:disabled) {
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav>* {
+    flex: 1;
+}
+
+.questionSetContainer {
+    width: 100%;
+}

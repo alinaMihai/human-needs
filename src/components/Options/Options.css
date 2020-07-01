@@ -1,0 +1,16 @@
+.optionsContainer {
+    padding: 40px;
+}
+
+label {
+    padding: 10px;
+    cursor: pointer;
+}
+
+label:hover {
+    font-weight: bold;
+}
+
+input:checked+span {
+    font-weight: bold;
+}

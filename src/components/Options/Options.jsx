@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-
+import './Options.css';
 const Options = ({onAnswer, selected, id}) => {
     const [selectedValue,
         setSelectedValue] = useState();
@@ -8,28 +8,28 @@ const Options = ({onAnswer, selected, id}) => {
         setSelectedValue(selected);
     }, [id, selected]);
     return (
-        <div id={id}>
+        <div id={id} className="optionsContainer">
             <label><input
                 type='radio'
                 value={10}
                 name={id}
                 checked={selectedValue === '10'}
                 onChange={onAnswer}/>
-                Yes</label>
+                <span>Yes</span></label>
             <label><input
                 type='radio'
                 value={5}
                 name={id}
                 checked={selectedValue === '5'}
                 onChange={onAnswer}/>
-                Partly</label>
+                <span>Partly</span></label>
             <label><input
                 type='radio'
                 value={0}
                 name={id}
                 checked={selectedValue === '0'}
                 onChange={onAnswer}/>
-                No</label>
+                <span>No</span></label>
         </div>
     );
 };

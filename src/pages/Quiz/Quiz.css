@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    ;
+}
+
+.progressBar {
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+}
