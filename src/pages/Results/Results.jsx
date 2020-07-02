@@ -68,23 +68,25 @@ const Results = () => {
                     { name: "Defensiveness", value: firstNeed.character.defensiveness},
                     {name: "Emotions", value: firstNeed.character.emotions}
                     
-                ].map((item) => (
-                <><div className="title">{item.name}</div><div className="content">{item.value}</div></>
+                ].map((item, i) => (
+                <div key={i}><div className="title">{item.name}</div><div className="content">{item.value}</div></div>
                 ))} 
                 <h3 className="section">Growth and Balance</h3>
                 {[{name: "Your Goal", value: firstNeed.growthBalance.goal},
                   {name: "What To Do", value: firstNeed.growthBalance.do}, 
                   {name: "What Interferes with Your Goal", value: firstNeed.growthBalance.obstacles}, 
                   {name: "How Others Can Support You In Your Goal", value: firstNeed.growthBalance.support}]
-                .map(item => <><div className="title">{item.name}</div><div>{item.value}</div></>)}
+                .map((item, i) => <div key={i}><div className="title">{item.name}</div><div>{item.value}</div></div>)}
 
                 <h4 className="section">Your Second Need is for {secondNeedData.name}</h4>
-                <div>{secondNeedData.text}</div>
-                <h5 className="section">Couples by First Two Needs</h5>
-                {secondNeedData.couples.map(couple => (<div className="couple">
+                <div>{secondNeedData.text}</div> 
+                {secondNeedData.couples.length > 0 && <><h5 className="section">Couples by First Two Needs</h5>
+                {secondNeedData.couples.map((couple, i) => (<div key={i} className="couple">
                     <div className="title">If your first two needs are for <strong>{firstNeed.name}</strong> and <strong>{secondNeedData.name}</strong> and your partner's first two needs are for <strong>{couple.name}</strong>
                 </div><div>{couple.text}</div>
+                
                 </div>))}
+                </>}
             </div>
         );
     }, []);
@@ -104,8 +106,8 @@ const Results = () => {
             <div className="numbers">
                 {[...answers].sort((a, b) => {
             return b.value - a.value
-        }).map(answer => (
-                    <div className="need">
+        }).map((answer, i) => (
+                    <div key={i} className="need">
                         <strong>{answer.name}: </strong><span>{answer.value}</span>
                     </div>
                 ))} 

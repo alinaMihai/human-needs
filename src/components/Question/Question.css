@@ -1,9 +1,13 @@
 .questionText {
     font-weight: bold;
     padding: 20px 0;
+    flex: 1;
+    min-height: 70px;
 }
 
 .questionContainer {
     width: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }

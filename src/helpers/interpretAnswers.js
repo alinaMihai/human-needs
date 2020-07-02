@@ -1,4 +1,4 @@
-export function interpretAnswers(answers) {
+export function interpretAnswers(answers = {}) {
     function computeSum(questions) {
         return questions.reduce((sum, question) => {
             return sum + Number(answers[question])
