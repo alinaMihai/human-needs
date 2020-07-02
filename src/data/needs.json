@@ -49,19 +49,28 @@
                 "id": 3,
                 "name": "Significance",
                 "text": "I am in inner conflict because significance can only be accomplished by comparing yourself to others, by being competitive, being out there in the world and by taking risks. On the other hand, I don’t want to be competitive, to take risks or to be out there in the world. Because of my need for certainty I have trouble involving myself with people, yet I can only satisfy my need for significance by comparing myself to others. I need the certainty of knowing that I’m significant and important, and this makes it difficult to get along with me. It’s difficult for me to truly love and take care of others because I am so focused on my inner feelings.",
-                "couples": []
+                "couples": [{
+                    "name": "SIGNIFICANCE & CERTAINTY",
+                    "text": "You need to fulfill each other’s need for significance so you don’t find it outside the relationship. You need to be able to share at least some of the vehicles that give you certainty."
+                }]
             },
             {
                 "id": 4,
                 "name": "Love/Connection",
                 "text": "It’s important for me to distinguish whether it is certainty or love/connection that is my number one need. If certainty is number one, my love will not flow easily, since I need to feel certain before I can freely give love, and certainty is very difficult to accomplish. If love/connection is my number one need, my love will flow, even when I don’t feel certain and I will be able to love and be loved. Yet, the need for certainty, even when it is my need number two, will put restraints on my ability to love and to connect to others. I have trouble at work if I feel that the work environment is not comfortable, organized, predictable and if I don’t feel connected and appreciated by others.",
-                "couples": []
+                "couples": [{
+                    "name": "LOVE/CONNECTION & CERTAINTY",
+                    "text": "Both of you need to be careful not to make the giving and receiving of love conditional on the amount of certainty you feel. You need to be able to tolerate some degree of uncertainty and still let your love flow."
+                }]
             },
             {
                 "id": 5,
                 "name": "Growth",
                 "text": "My inner conflict is that I want to feel comfortable, safe, and secure. I need a predictable environment and I don’t want to take risks. Yet to grow, I need to put myself out there, take risks, extend the limits of my comfort and stretch myself. To satisfy my need for certainty, I prefer to avoid new people and new situations. To satisfy my need for growth I need to become involved with new people and new situations. This inner conflict preoccupies me and makes it difficult for people to help me to satisfy my needs, since they don’t know whether certainty or growth are more important to me. One way I can resolve this dilemma is that I can always be certain that I can grow, because there are always new things to learn and new skills to be developed. The way to resolve my conflict is to satisfy my need for certainty by always growing. I might have difficulties at work if I don’t feel that I’m growing and, at the same time, that I am in comfortable, organized, predictable environment.",
-                "couples": []
+                "couples": [{
+                    "name": "GROWTH & CERTAINTY",
+                    "text": "You have the same inner conflict because growth always involves some uncertainty, which is difficult for you to tolerate. You can be very compatible as long as you use some of the same vehicles to fulfill your needs for certainty and growth. Otherwise, you may grow apart from each other."
+                }]
             },
             {
                 "id": 6,
@@ -318,6 +327,9 @@
                 "couples": [{
                     "name": "GROWTH & SIGNIFICANCE",
                     "text": "You are very similar but not necessarily compatible because you might find yourselves competing for who is more important. Your growth activities may take you in different directions and you might derive so much significance from growing that you might lose touch with each other."
+                }, {
+                    "name": "SIGNIFICANCE & CONTRIBUTION ",
+                    "text": "Even though you seem compatible in that you both have a strong need for significance, it’s difficult to have two sovereigns sitting on one throne. You may find that you compete as to who is more important. The need for growth and the need for contribution are similar and compatible except that they might take you in two different directions and you might lose touch with each other. Your partner may feel that you are too self-­‐centered and you might feel that your partner gives too much to others."
                 }]
             },
             {
