@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
-import {useHistory} from "react-router-dom";
-import {withRouter} from "react-router";
+import {useHistory, withRouter} from "react-router-dom";
 import QuestionSet from '../../components/QuestionSet/QuestionSet';
 import { Line } from 'rc-progress';
 import './Quiz.css';

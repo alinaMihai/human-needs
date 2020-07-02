@@ -1,27 +1,29 @@
 import React from 'react';
-import { Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import Quiz from '../../pages/Quiz/Quiz';
 import Results from '../../pages/Results/Results';
 
 const history = createBrowserHistory();
 
-const AppRouter = () => {
+const AppRouter = ({children}) => {
     return (
-        <Router history={history}>
+        <BrowserRouter history={history}>
           <Switch>
               <Route
-                exact path={["/","/quiz"]}
                 key={1}
+                exact path={["/","/quiz"]}
                 component={Quiz}
               />
               <Route
                 key={2}
-                path="/results"
+                exact
+                path={["/results"]}
                 component={Results}
               />
          </Switch>
-        </Router>
+         {children}
+        </BrowserRouter>
     );
 }
 
