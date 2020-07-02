@@ -8,6 +8,7 @@ const questionsCount = 84;
 
 const Quiz = () => {
   const [progressPercentage, setProgressPercentage] = useState('0');
+  const [showTest, setShowTest] = useState(false);
   const [color, setColor] = useState('#FE8C6A');
   const history = useHistory();
 
@@ -31,17 +32,27 @@ const Quiz = () => {
     history.push("/results");
   };
 
+  const onShowTest = () => {
+    setShowTest(true);
+  }
+
   return (
     <div>
       <header>
         <h1>The 6 Human Needs Test</h1>
       </header>
       <main>
-        <div className={'progressBar'}>
-        Progress {progressPercentage} %
-        </div>
-        <Line percent={progressPercentage} strokeWidth="4" strokeColor={color} />
-        <QuestionSet handleSubmit={handleSubmit} nextQuestion={changeState}/>
+        {!showTest && <span className="subtitle">
+        Every statement must be answered as: “No,” “Partly,” or “Yes.” Honestly grade each statement: “Yes,” for “yes, this is really me.” “Partly” for this is partly how I am,” and “No” for “This is probably not how I am.” (If you don’t know whether it applies, it’s usually best to check “no.”)
+        <p>To begin the test click <button onClick={onShowTest}>Start</button></p> 
+        </span>}
+        {showTest && <div className={'test'}>
+          <div className={'progressBar'}>
+          Progress {progressPercentage} %
+          </div>
+          <Line percent={progressPercentage} strokeWidth="4" strokeColor={color} />
+          <QuestionSet handleSubmit={handleSubmit} nextQuestion={changeState}/>
+        </div>}
       </main>
     </div>
   );

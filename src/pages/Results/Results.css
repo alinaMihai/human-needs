@@ -1,0 +1,35 @@
+.resultsContainer {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
+
+.title {
+    padding: 10px 0;
+    font-style: italic;
+}
+
+.section {
+    font-size: 2rem;
+    text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+    .numbers .need {
+        display: flex;
+    }
+    .numbers .need strong {
+        flex: 1;
+    }
+    .chart {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .numbers {
+        display: none;
+    }
+}
