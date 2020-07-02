@@ -32,7 +32,8 @@ const options =   {
 }
 
 
-const ResultsChart = ({series = [], labels=[]}) => {
+const ResultsChart = ({series = []}) => {
+    console.log(series)
     return (
         <div id="chart">
             <ReactApexChart
