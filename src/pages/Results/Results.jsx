@@ -106,18 +106,24 @@ const Results = () => {
         <div className="resultsContainer">
             <h1>Here is the Interpretation of your answers</h1>
             <div className="chart">
+            Your needs (higher means influences your life decisions more):
             <ResultsChart series={chartSeries}/>
             </div> 
             <div className="numbers">
+                Your needs in order (higher means influences your life decisions more):
                 {[...answers].sort((a, b) => {
             return b.value - a.value
         }).map((answer, i) => (
                     <div key={i} className="need">
-                        <strong>{answer.name}: </strong><span>{answer.value}</span>
+                        <strong>{answer.name}: </strong><span>{answer.value} / 140</span>
                     </div>
                 ))} 
             </div>
             {results}
+            <footer>
+             <br/>
+            <a href=" https://cloemadanes.com/" target="_blank" title="Cloé Madanes's site" rel="noopener noreferrer" ><strong>Cloé Madanes</strong></a> is the author of the original test (paper form), so she deserves credit for any insights you received here.
+            </footer>
         </div>
     );
 };
