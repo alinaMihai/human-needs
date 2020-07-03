@@ -4,9 +4,10 @@ import needs from '../../data/needs.json';
 import './Results.css';
 import ResultsChart from './ResultsChart/ResultsChart';
 
-const answersData = JSON.parse(localStorage.getItem('answers'));
+
 
 const Results = () => {
+    const [answersData, setAnswersData] = useState({});
     const [results,
         setResults] = useState();
     const [answers,
@@ -23,6 +24,10 @@ const Results = () => {
             secondNeed: secondNeed.id
         }
     }
+
+    useEffect(() => {
+       setAnswersData(JSON.parse(localStorage.getItem('answers')));
+    }, []);
 
     useEffect(() => {
         if (!answers.length) {
@@ -95,7 +100,7 @@ const Results = () => {
         const interpretedAnswers = interpretAnswers(answersData);
         setAnswers(interpretedAnswers);
         setResults(getDisplayResults(interpretedAnswers));
-    }, [getDisplayResults]);
+    }, [getDisplayResults, answersData]);
 
     return (
         <div className="resultsContainer">
