@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Quiz from '../../pages/Quiz/Quiz';
 import Results from '../../pages/Results/Results';
+import Page from '../../components/Page/Page';
 
 const AppRouter = ({children}) => {
     return (
@@ -10,13 +11,13 @@ const AppRouter = ({children}) => {
               <Route
                 key={1}
                 exact path={["/","/quiz"]}
-                component={Quiz}
+                render={() => <Page><Quiz/></Page>}
               />
               <Route
                 key={2}
                 exact
                 path={["/results"]}
-                component={Results}
+                render={() => <Page><Results/></Page>}
               />
          </Switch>
          {children}

@@ -1,0 +1,9 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.changeLanguage {
+    align-self: flex-end;
+    padding: 10px;
+}

@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {useHistory, withRouter} from "react-router-dom";
+import {useTranslation} from 'react-i18next';
 import QuestionSet from '../../components/QuestionSet/QuestionSet';
 import { Line } from 'rc-progress';
 import './Quiz.css';
@@ -7,6 +8,7 @@ import './Quiz.css';
 const questionsCount = 84;
 
 const Quiz = () => {
+  const {t} = useTranslation();
   const [progressPercentage, setProgressPercentage] = useState('0');
   const [showTest, setShowTest] = useState(false);
   const [color, setColor] = useState('#FE8C6A');
@@ -39,7 +41,7 @@ const Quiz = () => {
   return (
     <div>
       <header>
-        <h1>The 6 Human Needs Test</h1>
+  <h1>{t('title')}</h1>
       </header>
       <main>
         {!showTest && <span className="subtitle">

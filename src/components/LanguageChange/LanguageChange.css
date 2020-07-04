@@ -1,0 +1,23 @@
+.languageChangeContainer {
+    display: flex;
+    align-self: flex-end;
+    padding: 10px;
+    align-items: center;
+}
+
+select {
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+option {
+    cursor: pointer;
+}
+
+.languageChangeContainer span {
+    font-size: 1rem;
+}
+
+.flag-select {
+    padding-bottom: 0;
+}
