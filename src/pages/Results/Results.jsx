@@ -96,6 +96,7 @@ const Results = () => {
                 </>}
             </div>
         );
+         // eslint-disable-next-line
     }, []);
 
     useEffect(() => {
