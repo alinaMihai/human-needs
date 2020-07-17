@@ -1,4 +1,58 @@
 {
     "title": "The 6 Human Needs Test",
-    "languageChange": "Change Language"
+    "subtitle": "Every statement must be answered as: “No,” “Partly,” or “Yes.” Honestly grade each statement: “Yes,” for “yes, this is really me.” “Partly” for this is partly how I am,” and “No” for “This is probably not how I am.” (If you don’t know whether it applies, it’s usually best to check “no.”)",
+    "languageChange": "Change Language",
+    "startTest": "To begin the test click",
+    "progress": "Progress",
+    "optionYes": "Yes",
+    "optionPartly": "Partly",
+    "optionNo": "No",
+    "previous": "Previous",
+    "next": "Next",
+    "results": {
+        "title": "Here is the Interpretation of your answers",
+        "subtitle": "Your needs (higher means influences your life decisions more):",
+        "needs": {
+            "certainty": "Certainty",
+            "variety": "Uncertainty/Variety",
+            "significance": "Significance",
+            "love": "Love/Connection",
+            "growth": "Growth",
+            "contribution": "Contribution"
+        },
+        "firstNeed": "Your first need is for",
+        "beliefs": "YOUR BELIEFS",
+        "benefits": "How this Belief Serves You",
+        "risks": "The Principles You Lost Sight Of",
+        "consequences": "The Consequences of Losing Sight of This Principle",
+        "character": {
+            "title": "Character",
+            "focus": "Focus",
+            "energy": "Energy",
+            "health": "Health",
+            "avoidance": "What You Avoid",
+            "strengths": "Strengths",
+            "communicationStyle": "Communication Style",
+            "stress": "Stress",
+            "defensiveness": "Defensiveness",
+            "emotions": "Emotions"
+        },
+        "growthBalance": {
+            "title": "Growth and Balance",
+            "goal": "Your Goal",
+            "do": "What To Do",
+            "obstacles": "What Interferes With Your Goal",
+            "support": "How Others Can Support You In Your Goal"
+        },
+        "secondNeedTitle": "Your Second Need is for",
+        "seccondNeed": {
+            "couples": {
+                "title": "Couples by First Two Needs",
+                "para1": "If your first two needs are for",
+                "para2": "and",
+                "para3": "and your partner's first two needs are for"
+            }
+        },
+        "credit": "is the author of the original test (paper form), so she deserves credit for any insights you received here."
+    }
 }

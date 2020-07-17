@@ -15,9 +15,10 @@
       // init i18next
       // for all options read: https://www.i18next.com/overview/configuration-options
       .init({
+          ns: ['translation', 'needs', 'questions'],
           fallbackLng: 'en',
           debug: true,
-
+          returnObjects: true,
           interpolation: {
               escapeValue: false, // not needed for react as it escapes by default
           },

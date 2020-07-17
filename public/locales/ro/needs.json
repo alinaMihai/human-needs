@@ -1,0 +1,398 @@
+{
+    "needs": [{
+            "id": 1,
+            "name": "Siguranță",
+            "beliefs": "Trebuie să mă simt în siguranță, protejat/ă şi confortabil/ă şi trebuie să mă asigur că voi fi în siguranță, protejat/ă şi confortabil/ă în viitor. Evitarea durerii este foarte importantă pentru mine. Nu pot fi fericit/ă când sunt nesigur/ă în legături cu lucrurile",
+            "benefits": "Evit riscurile și plănuiesc cu atenție viitorul. Sunt atent/ă și am grijă de mine. Oamenii știu că sunt previzibil/ă. Știu cum să fiu organizat/ă.",
+            "risks": "Viitorul este imprevizibil; tot ceea ce avem este momentul actual, unde nu există riscuri, nu există câștig. Este posibil să fim nesiguri de viitor, dar fericiţi în prezent.",
+            "consequences": "Îmi limitez noile experiențe. Îmi este greu să îmi păstrez inima deschisă când nu mă simt în siguranță și confortabil/ă. Îmi este greu să mă conectez cu alți oameni de teama că mă vor face să sufăr. Uneori pot părea dominator/dominatoare. Pot părea lipsit/ă de entuziasm și chiar plictisitor/plictisitoare. Prefer să fiu predictibil/ă, chiar dacă îmi pierd spontaneitatea.",
+            "character": {
+                "focus": "Îmi pun atenția pe stabilitate, rutine zilnice şi asupra pregătirii şi economisirii pentru viitor. Prefer o muncă stabilă și ușoară, în loc de muncă, care să fie provocatoare și care să îmi extindă abilitățile.",
+                "energy": "Îmi investesc energia în organizarea unui mediu sigur şi confortabil. Atenția mea este spre interior, asupra evaluării nivelului meu de disconfort sau/si confort.",
+                "health": "Îmi place să am grijă de mine, dar nevoia mea de confort mă poate duce la un consum excesiv de mâncare sau de băutură.",
+                "avoidance": "Am tendința de a evita noi oameni și experiențe noi. Evit relațiile în care nu există un angajament total. Evit amenințările și pericolele. Îmi este teamă să nu fiu în control.",
+                "strengths": "Sunt organizat/ă, statornic/ă și de încredere. Pot crea o ambianță plăcută în mediu de lucru și cel de acasă, unde oamenii se pot simți confortabil.",
+                "communicationStyle": "Vorbesc adesea despre stările mele interne, punând în evidență dacă mă simt ancorat/ă în mine, protejat/ă și în siguranță. Cuvintele pe care le folosesc frecvent sunt: confort, securitate, stabilitate şi previzibilitate.",
+                "stress": "Sunt stresat/ă când mi se cere ceva nou, când nu ştiu ce se va întâmpla în continuare. Schimbările de planuri, chiar dacă reprezintă noi oportunităţi, mă stresează. Pun presiune pe mine să mă asigur că nu mă simt nesigur/ă.",
+                "defensiveness": "Devin defensiv/ă când sunt obligat/ă să îmi schimb obiceiurile sau să am de-a face cu oameni și situații noi. Mă pot supăra când oamenii îmi provoacă nevoia mea de a mă simți confortabil/ă și de a avea previzibilitate în viața mea.",
+                "emotions": "Mă îngrijoreaz foarte mult în legătură cu viitorul. Sunt foarte sensibil/ă la pericol şi mă tem uşor. Uneori invidiez oameni care au mai mulți bani sau un venit mai mare decât mine."
+            },
+            "growthBalance": {
+                "goal": "Obiectivul meu este să pot trăi în prezent; să simt momentul fără să mă gândesc la ce se va întâmpla în continuare și la ce ar putea aduce viitorul. Trebuie să îmi asum anumite riscuri pentru a câștiga anumite beneficii. Trebuie să accept faptul că incertitudinea şi nesiguranţa fac parte din viaţă.",
+                "do": "Trebuie să ies din zona mea de confort, învăţând lucruri noi şi având experienţe noi. În loc de teamă şi anxietate, trebuie să învăţ să simt entuziasm şi bucurie. Trebuie să învăț să mă bucur de o provocare. Trebuie să îmi dezvolt curajul și să pot acționa chiar și atunci când mă simt nesigur/ă. Trebuie să fiu deschis/ă să mă consult cu alții în legătură cu temerile și îngrijorările mele pentru a vedea dacă sunt cu adevărat justificate.",
+                "obstacles": "Dorința mea de a mă simt confortabil/ă şi să planific pentru viitor îmi crează dificultăți în atingerea obiectivelor. Încerc să protejez şi să controlez prea mult. Am nevoie de prea multă certitudine. Pot fi pesimist/ă în ceea ce priveşte viitorul.",
+                "support": "Alţii mă pot sprijini prin a mă invita să iau parte în noi experienţe şi prin a mă încuraja să fiu spontan/ă și să mă simt bine. Ei pot contracara îndoielile şi temerile mele în moduri realiste."
+            },
+            "secondNeed": [{
+                    "id": 2,
+                    "name": "Incertitudine/Varietate",
+                    "text": "Sunt într-o situaţie tulburătoare şi conflictuală, deoarece acestea sunt nevoi ce se contrazic una pe cealaltă. Uneori vreau să nu fac nimic, să fiu confortabil/ă şi să mă asigur că mă simt în siguranţă. În alte momente, caut o schimbare, varietate în activități și suspans. Vreau să risc şi să mă simt entuziasmat/ă. Acest conflict intern îmi afectează relaţiile, deoarece oamenii nu sunt siguri de ceea ce îmi doresc cu adevărat, și, prin urmare, nu știu cum să mă ajute să îmi îndeplinesc nevoile. Când am certitudine, tânjesc după incertitudine/varietate. Şi când am incertitudine/varietate, tânjesc după certitudinea. Mi se pare adesea că nu voi avea niciodată suficient din niciuna. La locul de muncă, am nevoie de un mediu confortabil, organizat, previzibil, însă am nevoie, de asemenea, de incertitudine, de noi experienţe şi provocări, care ar putea fi tulburător pentru colegii mei.",
+                    "couples": [{
+                            "name": "Certitudine și importanță",
+                            "text": "Chiar dacă sunteți compatibili în sensul că amândoi aveți nevoie de certitudine, este posibil să aveți conflicte cu privire la nevoia ta de incertitudine/varietate și cea a partenerului de a se simți important. Partenerul tău poate să se simtă neglijat și neapreciat atunci când îți urmărești numeroasele interese. De asemenea, partenerul poate să nu fie dispus să îți împărtășească nevoia de incertitudine/varietate, pentru că nu se va simți important în activități noi în care nu este expert. Poate fi dificil pentru partener să simpatizeze cu conflictul tău interior dintre nevoia de certitudine şi cea de incertitudine/varietate."
+                        },
+                        {
+                            "name": "Certitudine și iubire / conexiune ",
+                            "text": "Chiar dacă sunteți compatibil în sensul că amândoi aveți nevoie de certitudine, puteți avea conflicte, deoarece partenerul ar putea simți că interesele tale numeroase sunt mai importante pentru tine decât dragostea ta pentru el. Partenerul dumneavoastră poate fi mai casnic/ă care doar vrea să fie aproape de tine în timp ce tu simți nevoia să te implici în activități în afara casei pentru a îți satisface dorința de incertitudine/varietate."
+                        },
+                        {
+                            "name": "Certitudine și Dezvoltare",
+                            "text": "Sunteți probabil foarte compatibili, cu toate că partenerul poate să prefere activități care implică învățare și dezvoltarea de noi competențe, în timp ce tu preferi activități care implică suspans și risc. Cu toate acestea, împărtăşiţi nevoia de stimulare şi de noi experienţe. Trebuie să ai grijă să nu pierdeți conexiunea unul cu celălalt dacă cumva nevoia ta de varietate te poartă într-o direcţie, în timp ce nevoia lui/ei de dezvoltare îl/o poartă într-o direcţie diferită."
+                        },
+                        {
+                            "name": "Certitudine și contribuție",
+                            "text": "Probabil că sunteţi foarte compatibili în sensul că atenția în exterior este importantă pentru amândoi. Cu toate acestea, nevoia ta de varietate te poate îndrepta într-o direcţie, în timp ce nevoia partenerul de contribuţie, poate să îl/o conducă într-o direcţie diferită şi puteţi pierde contactul unul cu celălalt."
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Importanță",
+                    "text": "Sunt în conflict interior, deoarece nevoia de a mă simți important/ă poate fi obţinută doar prin compararea cu alţii, fiind competitiv/ă, fiind acolo în lume şi asumându-mi riscuri. Pe de altă parte, nu vreau să fiu competitiv/ă, să îmi asum riscuri sau să fiu acolo în lume. Din cauza nevoii mele de certitudine, am probleme cu implicarea mea cu oamenii. Cu toate acestea, nu pot să îmi satisfac nevoia de a mă simți important/ă decât prin compararea mea cu alţii. Am nevoie de certitudinea de a ști că sunt important/ă, iar acest lucru îmi poate îngreuna comunicarea cu alții. Este dificil pentru mine să iubesc cu adevărat și să am grijă de alții pentru că sunt atât de concentrat/ă pe sentimentele mele interioare.",
+                    "couples": [{
+                        "name": "Importanță și certitudine",
+                        "text": "Trebuie să răspundeți reciproc nevoii de semnificație, astfel încât să nu o găsești în afara relației. Trebuie să puteți împărtăși cel puțin unele dintre strategiile care vă oferă certitudine."
+                    }]
+                },
+                {
+                    "id": 4,
+                    "name": "Iubire/Conexiune",
+                    "text": "Este important să disting care este cea mai mare nevoie a mea între certitudine și iubire/conexiune. Dacă siguranţa este pe primul loc, nu voi fi deschis/ă să iubesc ușor, din moment ce trebuie să fiu sigur/ă înainte de a putea oferi iubire cu toată inima, iar certitudinea este foarte dificil de atins. Dacă iubirea/conexiunea este prima mea nevoie, voi putea oferi iubire cu ușurință, chiar și atunci când nu mă simt sigur/ă și voi putea să iubesc și să fiu iubit/ă. Cu toate acestea, nevoia mea de certitudine, chiar dacă este pe locul al doilea, îmi va îngreuna capacitatea de a iubi și de a mă conecta cu alții. Am probleme la muncă dacă simt că mediul de lucru nu este confortabil, organizat, predictibil și dacă nu mă simt conectat/ă și apreciat/ă de alții.",
+                    "couples": [{
+                        "name": "Iubire/conexiune și certitudine",
+                        "text": "Amândoi trebuie să fiţi atenţi să nu condiţionaţi acordarea şi primirea iubirii de nivelul de certitudine pe care îl simţi. Trebuie să puteți tolera un anumit grad de incertitudine și să să iubiți cu inima deschisă."
+                    }]
+                },
+                {
+                    "id": 5,
+                    "name": "Dezvoltare",
+                    "text": "Conflictul meu interior este că vreau să mă simt confortabil/ă, și în siguranță. Am nevoie de un mediu previzibil și nu vreau să îmi asum riscuri. Cu toate acestea, pentru a creşte, trebuie să mă expun în lume, să îmi asum riscuri, să-mi extind limitele confortabilului şi să îmi depășesc limitele. Pentru a-mi satisface nevoia de certitudine, prefer să evit persoane și situații noi. Pentru a satisface nevoia mea de dezvoltare trebuie să mă implic în situații noi, și cu oameni noi. Acest conflict intern mă preocupă şi este dificil pentru alții să mă ajute să îmi satisfac nevoile, întrucât ei nu știu care dintre nevoile mele de certitudinea și creșterea sunt mai importante pentru mine. O modalitate prin care pot rezolva această dilemă este că pot fi întotdeauna sigur/ă că pot crește. pentru că sunt întotdeauna lucruri noi de învăţat şi noi competenţe pe care le pot dezvolta. Modul în care îmi pot rezolva conflictului este să îmi satisfac nevoia de certitudine printr-o creștere continuă. Aș putea întâmpina dificultăți la locul de muncă dacă nu simt că mă dezvolt și în acelaşi timp, că sunt într-un mediu confortabil, organizat şi previzibil.",
+                    "couples": [{
+                        "name": "Dezvoltare și certitudine",
+                        "text": "Aveţi acelaşi conflict intern, deoarece creşterea implică întotdeauna o anumită incertitudine, ceea ce este dificil pentru voi să toleraţi. Puteți fi foarte compatibili atâta timp cât folosiți aceleași strategii pentru a vă satisface nevoile de certitudine și creștere. Altfel, puteți să vă distanțați unul de celălalt."
+                    }]
+                },
+                {
+                    "id": 6,
+                    "name": "Contribuție",
+                    "text": "Dacă certitudinea înseamnă că nu îmi pot asuma riscuri, că totul trebuie să fie previzibil și că trebuie să mă simt întotdeauna confortabil/ă, atunci certitudinea şi contribuţia sunt nevoi în contradicție. Pentru a contribui, trebuie să mă expun la riscuri, iar rezultatele nu sunt întotdeauna previzibile. Cu toate acestea, dacă îmi pot satisface nevoia de certitudine contribuind, atunci nu există niciun conflict interior. Pot fi întotdeauna sigur/ă că voi contribui, Toată lumea poate contribui dincolo de propria persoana și pot fi sigur/ă că voi găsi modalități de a aduce o contribuție altora. La locul de muncă, nevoia mea de certitudine ar putea interfera cu nevoia mea de oferi o contribuție colegilor cu care lucrez, dacă simt că ei nu contribuie suficient la crearea unui mediu de lucru predictibil, organizat.",
+                    "couples": []
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Incertitudine/Varietate",
+            "beliefs": "Cred că fericirea vine din multe experienţe şi provocări diferite care mă solicită emoţional, intelectual sau fizic. Starea mea de bine necesită incertitudine, suspans și surpriză. Am nevoie de entuziasmul provenit din varietate.",
+            "benefits": "Am multe interese. Oamenii mă percep de obicei ca fiind amuzant/ă, dinamic/ă, interesant/ă şi distractiv/ă. Întotdeauna pot găsi lucruri noi de făcut şi noi aventuri. Am mulţi prieteni din medii diferite. Interacţionez bine cu oameni de toate vârstele şi toate straturile vieţii. Cred în oameni ușor şi mă gândesc la cei mai bun în oameni. Nu sunt plictisit uşor, pentru că întotdeauna pot găsi ceva interesant de făcut. Sunt distractiv/ă, iubitor/iubitoare și lipsit/ă de grijă. Sunt de obicei optimist/ă și îmi place să mă bucur de viață la maxim.",
+            "risks": "Să avem un echilibru în viaţă există perioade în care prioritatea este stabilitatea şi responsabilitatea în relaţii. Uneori este necesar să ne concentrăm asupra subiectelor şi sarcinilor care nu sunt deosebit de interesante pentru a obţine recompense mai târziu. Nu poți întotdeauna avea încredere în toată lumea.",
+            "consequences": "Uneori oamenii simt că nu pot conta pe mine, că nu sunt dedicat/ă, statornic/ă și că nu am grijă de cei dragi. Pot fi implicat/ă în prea multe lucruri în același timp şi pot neglija ceea ce trebuie să fac pentru a mă asigura că sunt în siguranță şi confortabil/ă. Mă pot implica în situații periculoase sau dificile din punct de vedere fizic, emoțional și financiar. Uneori pot fi nepăsător/nepăsătoare față de lucruri care ştiu că sunt importante pentru mine şi pentru alţii. Natura mea optimistă și încrezătoare face posibil ca oamenii să profite de mine. Studiul, învățatul şi monotonia pot fi dificile pentru mine şi pot duce la provocări în carieră. Îmi pot pierde concentrarea.",
+            "character": {
+                "focus": "Atenția mea este pe căutarea schimbării și excitării. Atenția mea este pe ceea ce este inedit și interesant sau provocator. În timp ce sunt implicat/ă într-o aventură, o plănuiesc pe următoarea. Îmi place suspansul și efortul susținut.",
+                "energy": "Sunt energic/ă și trebuie să îmi concentrez energia pe mai multe proiecte. Mă concentrez în exterior asupra a ceea ce urmează să fac. Fie că sunt observator sau participant activ, caut în mod constant stimularea şi divertismentul.",
+                "health": "Mă mențin în formă pentru a mă implica în toate activitățile care mă interesează.",
+                "avoidance": "Evit o viață plină de obiceiuri și rutine. Nu-mi place să mă implic în relații care mă limitează de la provocări și experiențe noi. Evit plictiseala.",
+                "strengths": "Sunt entuziast/ă, independent/ă și distractiv/ă. Îmi place să trăiesc astfel încât să nu existe niciodată un moment plictisitor. Văd paharul pe jumătate plin. Sunt lider și pot fi viața petrecerii. Nu-mi este teamă să îmi asum riscuri. Sunt jucăuș/ă și optimist/ă.",
+                "communicationStyle": "Îmi place să vorbesc despre diferite proiecte şi aventuri. Pot fi atât de entuziasmat/ă în conversație încât uit să ascult cealaltă persoană sau să îi cer opinia. Uneori devin neliniştit/ă şi trebuie să stau în picioare şi să merg, să mă plimb în timpul unei conversaţii. Cuvinte pe care le folosesc frecvent sunt: frică, instabilitate, schimbare, haos, divertisment, suspans, efort susținut, surpriză, conflict şi criză. ",
+                "stress": "Sunt stresat/ă când nu am timp sau mijloace să mă implic în provocări și aventuri noi. O viață banală mă stresează. Sunt supărat/ă dacă starea mea fizică mă împiedică să particip în activităţi care îmi plac. Restricţiile asupra libertăţii mele sunt foarte stresante pentru mine.",
+                "defensiveness": "Sunt defensiv/ă atunci când cineva încearcă să impună rutine sau programări sau să-mi restricționeze viața socială. Mă pot înfuria când oamenii îmi critică dorința de aventură și divertisment.",
+                "emotions": "Îmi place să mă simt entuziasmat/ă, încântat/ă, expansiv/ă, vesel/ă şi aventuros/aventuroasă. Fac tot posibilul pentru a evita plictiseala. Capacitatea mea de a experimenta o gamă largă de emoții mă face să empatizez ușor cu alții. Ştiu că pot să simt ceea simt și ei."
+            },
+            "growthBalance": {
+                "goal": "Scopul meu este să pot avea rădăcini, stabilitate şi relaţii permanente având în același timp și momente de aventură și excitare. Să am grijă de mine şi de alţii trebuie să fie o prioritate pentru mine mai mult. Trebuie să discern mai bine caracterul uman. Trebuie să trăiesc mai mult în prezent decât în viitor.",
+                "do": "Trebuie să mă concentrez mai mult asupra prezentului şi mai puţin asupra următoarei aventuri în viitor. Trebuie să creez un mediu stabil şi armonios pentru mine şi să dezvolt relaţii de lungă durată. Trebuie să mă concentrez pe activități care nu sunt deosebit de interesante, dar care duc la realizări importante în viitor.",
+                "obstacles": "Există un număr infinit de experienţe noi, interesante, care îmi sunt deschise. Este dificil să aleg între ele şi este dificil să rămân atent/ă pe ceea ce trebuie în prezent. Uneori mă concentrez prea mult pe propria persoană şi pe ceea ce îmi doresc. Pot fi uşor distras/ă şi abătut/ă de la cale.",
+                "support": "Alţii mă pot sprijini încurajându-mă şi laudându-mă când mă țin de o sarcină care nu este deosebit de interesantă şi când iau măsuri pentru a mă îngriji pe mine însumi şi pentru a asigura stabilitate pentru mine şi cei dragi. Oamenii mă pot ajuta să stau în prezent."
+            },
+            "secondNeed": [{
+                    "id": 3,
+                    "name": "Importanță",
+                    "text": "Conflictul meu intern este că îmi place incertitudinea, varietatea, suspansul, riscul şi totuşi vreau să mă simt întotdeauna important/ă, semnificativ/ă. Când există incertitudine şi lucrurile sunt imprevizibile, nu pot fi sigur/ă că voi simți sentimentul după care tânjesc de a fi important/ă şi semnificativ/ă. Totuşi, dacă nu îmi confrunt nesiguranța, nu pot fi sigur/ă că mă voi simţi suficient de important/ă. Nevoia mea atât pentru incertitudine/varietate, cât şi pentru semnificaţie mă poate face uneori să fiu prea competitiv/ă şi să fiu în opoziție cu oamenii, şi prin urmare, poate fi dificil să mă înțeleg cu alții. O soluţie pentru conflictul meu intern este ca eu să mă simt important/ă tocmai pentru că sunt capabil/ă să experimentez incertitudine şi varietate, mai probabil decât pentru că sunt mai important/ă şi mai competitiv/ă decât alții. Aş putea fi o persoană cu care este greu de lucrat, deoarece vreau să mă simt întotdeauna important/ă, iar nevoia mea de incertitudine/varietate îmi îngreunează capacitatea de a fi organizat/ă şi eficient/ă. Nevoia mea atât pentru semnificaţie, cât şi pentru incertitudine/varietate mă poate determina să-mi neglijez sănătatea şi să risc leziuni în sport şi în alte activităţi.",
+                    "couples": [{
+                        "name": "Incertitudine/Varietate și Iubire/Conexiune",
+                        "text": "Amândoi aveți conflicte interioare. Sunteți în conflict pentru că incertitudine/varietate și semnificație sunt în multe feluri incompatibile. Trebuie să te simți respectat/ă și important/ă, dar pentru varietate trebuie să participi în activități la care nu ești expert/ă. Partenerul/partenera tău/ta are un conflict intern deoarece incertitudinea/varietatea și iubirea/conexiunea sunt în multe feluri incompatibile cu menținerea unei relații stabile în cuplu. Nevoia partenerului/partenerei de incertitudine/varietate îl/o face să se conecteze cu oameni noi, în timp ce tu vrei să îți satisfaci nevoia de semnificație prin a avea toată atenția lui/ei. Partenerul/partenera te poate vedea ca fiind arogant/ă iar tu îl/o poți vedea ca fiind prea nesigur/ă de iubirea ta. Va trebui să fi atent/ă pentru a satisface nevoia de dragoste/conexiune a partenerului/partenerei, iar partenerul/partenera trebuie să fie atent/ă să vă ofere semnificația după care tânjiți"
+                    }]
+                },
+                {
+                    "id": 4,
+                    "name": "Iubire/Conexiune",
+                    "text": "Este dificil pentru mine să am o relaţie stabilă pe termen lung cu un partener/parteneră sau soţ/soţie. Există prea multe posibilităţi tentante de incertitudine şi varietate în lume. Aş putea încerca să satisfac nevoia mea de incertitudine/varietate prin implicarea cu alți oameni care ameninţă relaţia mea principală sau prin implicarea în activităţi care mă îndepărtează de partener/parteneră. Acest conflict este exacerbat dacă nevoia mea principală este incertitudinea/varietatea, iar dragostea/conexiunea este a doua, pentru că îmi va fi greu să iubesc şi să am grijă de oamenii care sunt importanţi în viaţa mea. Dacă dragostea/conexiunea este prima necesitate și incertitudinea/varietatea este a doua, nu va fi uşor, dar voi putea acorda prioritate celor pe care îi iubesc, în locul nevoii mele de experienţe noi. Munca poate fi dificilă pentru mine dacă nu simt că există suficientă varietate şi o legătură bună cu oamenii cu care lucrez. În ceea ce priveşte sănătatea, aş putea să mă epuizez încercând să ofer suficient timp îndeplinirii atât nevoii mele de dragoste/conectare cât şi nevoii de varietate.",
+                    "couples": [{
+                        "name": "Incertitudine/Varietate și Dezvoltare",
+                        "text": "Chiar dacă sunteţi compatibil în sensul că ambii aveţi nevoie de incertitudine/varietate, ai putea simți că partenerul/partenera nu îți oferă suficientă dragoste/conexiune și partenera/partenerul ar putea simți că nu o/îl ajuți suficient în implicarea în activități de dezvoltare. S-ar putea să te vadă ca fiind prea nesigur/ă de iubirea lui/ei, în timp ce tu îl/o poți vedea ca fiind prea detaşat/ă."
+                    }]
+                },
+                {
+                    "id": 5,
+                    "name": "Dezvoltare",
+                    "text": "Aceste nevoi nu sunt incompatibile sau contradictorii şi voi putea să îmi satisfac nevoia de incertitudine/varietate prin dezvoltarea personală, iar nevoia mea de creștere o pot satisface prin noi experiențe care îmi oferă incertitudinea/varietatea de care am nevoie. Totuși, deoarece acestea sunt cele mai importante două nevoi ale mele, tind să nu mă concentrez suficient asupra relațiilor și asupra persoanelor de care îmi pasă. S-ar putea ca oamenii să simtă că nu le ofer suficient şi că nu îi iubesc cu adevărat. Munca poate fi dificilă pentru mine dacă nu simt că există suficientă varietate și oportunitate de creștere. În ceea ce priveşte sănătatea şi siguranţa, aş putea să îmi asum prea multe riscuri care pot duce la leziuni sau probleme de sănătate.",
+                    "couples": [{
+                        "name": "Incertitudine/Varietate și Contribuție",
+                        "text": "Sunteţi foarte compatibili în sensul că ambii aveţi nevoie de incertitudine/varietate şi, de asemenea, pentru că creşterea şi contribuţia sunt similare, acestea fiind nevoi spirituale. Cu toate acestea, unul sau amândoi puteți ajunge să va concentraţi pe toate modurile posibile de creştere şi contribuire, încât vă puteți pierde din vedere unul faţă de celălalt. Va trebui să te asiguri că împărtășești unele dintre activitățile și interesele tale cu partenerul/partenera."
+                    }]
+                },
+                {
+                    "id": 6,
+                    "name": "Contribuție",
+                    "text": "Aceste nevoi nu sunt incompatibile sau contradictorii şi voi putea să îmi satisfac nevoia de incertitudine/varietate prin contribuția în viața altora, iar nevoia mea de contribuție o pot satisface prin găsirea de moduri diferite de a contribui. Totuși, deoarece acestea sunt cele mai importante două nevoi ale mele, tind să nu mă concentrez suficient asupra relațiilor și asupra persoanelor de care îmi pasă. S-ar putea ca oamenii să simtă că nu le ofer suficient şi că nu îi iubesc cu adevărat. Munca poate fi dificilă pentru mine dacă nu simt că există suficientă varietate și oportunitate de contribuție. În ceea ce priveşte sănătatea şi siguranţa, aş putea să îmi asum prea multe riscuri care pot duce la leziuni sau probleme de sănătate.",
+                    "couples": []
+                },
+                {
+                    "id": 1,
+                    "name": "Siguranță",
+                    "couples": [{
+                        "name": "Incertitudine/Varietate și Certitudine ",
+                        "text": "Amândoi aveţi un război intern între nevoia de certitudine şi nevoia de diversitate. Trebuie să vă ajutați unul pe celălalt în satisfacerea acestor nevoi în moduri rezonabile pe care le împărtășiți, astfel încât să nu pierdeți contactul unul cu celălalt."
+                    }]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Importanță",
+            "beliefs": "Cred că fericirea vine din a mă simți respectat/ă şi important/ă. Trebuie să fiu considerat/ă unic/ă şi special/ă. Am nevoie ca oamenii să mă admire şi chiar să le fie teamă de mine într-o anumită măsură.",
+            "benefits": "Lucrez din greu pentru a fi diferit/ă, special/ă și unic/ă. Mă străduiesc să fiu lider. Fac tot ce este necesar pentru ca oamenii să ma aprecieze, să mă respecte, și să mă admire. Vreau să îmi urmez propriu drum, nu să fac ce îmi zic alții.",
+            "risks": "Uneori dragostea este mai importantă decât respectul. Este dificil să iubești pe cineva care trebuie să se simtă important tot timpul. Smerenia este o valoare importantă. A fi admirat de mulţi dar iubit de puţini poate să nu ducă spre fericire. “Îngreunat este capul care poartă coroana.” – Shakespeare –",
+            "consequences": "Uneori oamenii nu mă plac pentru că mă văd ca fiind arogant/ă și plin/ă de mine. Trebuie să lucrez constant la a fi respectat/ă și admirat/ă. Am probleme să îmi las inima deschisă iubirii când nu mă simt important/ă. Oamenii cred uneori că mă consider superior/superioară tuturor. Pot să par rece şi nepăsător/nepăsătoare. De multe ori îmi este greu să mă bucur de moment. Pot să fiu văzut/ă ca fiind îngust/ă la minte. Am probleme în relaționarea cu alții pentru că mă concentrez mai degrabă asupra diferențelor decât asupra aspectelor comune. Sunt prea preocupat/ă de ierarhizarea ordinelor.",
+            "character": {
+                "focus": "Atenția mea este asupra a ceea ce trebuie făcut pentru a părea special/ă, diferit/ă și important/ă. Voi face aproape orice pentru a-mi păstra unicitatea. Mă concentrez să job rolul cuiva care este foarte special/ă. Trebuie să mă simt mândru/mândră de mine. Am standarde înalte şi trăiesc după ele. Mă evaluez comparându-mă cu alţii. Trebuie să fiu auzit/ă, şi uneori \"auzit/ă\" pentru mine, înseamnă ca alții să facă ce le zic.",
+                "energy": "Mă întreb în mod constant dacă oamenii mă respectă și mă admiră. Sunt atent/ă să corectez orice semn de lipsă de respect. Trebuie să simt că fac o diferență în orice situație. Sunt disciplinat/ă, competitiv/ă și pot fi perfecționist/ă.",
+                "health": "Dacă sentimentul meu că sunt important/ă este legat de înfățișare, rezistență și putere, voi face tot ce este necesar pentru a rămâne sănătos și într-o formă bună. Aş putea să mă rănesc printr-un efort prea mare în timpul exerciţiilor sau practicării unui sport.",
+                "avoidance": "Evit oamenii care nu mă admir/ă sau nu mă tratează cu respect. Evit situaţiile în care nu pot simţi că sunt foarte important/ă. Nu tolerez respingerea. Voi face orice pentru a evita să fiu umbrit/ă de alții. Urăsc să fiu umilit/ă în fața altora.",
+                "strengths": "Lucrez din greu și mă străduiesc să merit respectul și admirația pe care o tânjesc. Sunt dispus/ă să îmi asum responsabilitatea până la sacrificiul de sine. Sunt neobosit/ă în îndeplinirea obiectivelor mele. Sunt un lider. Susțin ceea ce cred. Nu mă tem de risc sau confruntare.",
+                "communicationStyle": "Deseori vorbesc despre realizările mele, sacrificiile mele, inteligența mea, punctele mele forte și farmecul mea. Poate părea că nu îmi pasă de părerile altora. Unele dintre cuvintele pe care le folosesc frecvent sunt: mândrie, importanță, standarde, realizare, performanță, perfecțiune, evaluare, disciplină, concurență și respingere.",
+                "stress": "Sunt stresat/ă atunci când simt că nu sunt la înălțimea standardelor mele. Mă stresează să nu fiu respectat/ă şi auzit/ă şi sentimentul că nu sunt un lider. Simt presiune să obține prestigiu, putere și statut. Sunt stresat/ă pentru că fac prea multe și pentru că nu sunt contact/ă cu valorile mele.",
+                "defensiveness": "Devin defensiv/ă la cea mai mică critică și atunci când oamenii îmi spun ce să fac. Orice lucru care implică faptul că sunt un adept, în loc de un lider, mă pune în defensivă.",
+                "emotions": "Simt disperare, mânie şi furie când nu mă ridic la înălţimea standardelor mele şi nu îmi ating obiectivele. Mă pot supăra când oamenii nu sunt de acord cu valorile și credințele mele și conducerea mea. Pot fi nerăbdător/nerăbdătoare și iritabil/ă."
+            },
+            "growthBalance": {
+                "goal": "Obiectivul meu este să fiu iubit/ă pentru cine sunt, nu datorită realizărilor mele sau datorită respectului şi admiraţiei celorlalţi. Trebuie să învăţ să preţuiesc dragostea şi conexiunea mai mult decât respectul şi admiraţia. Trebuie să învăț să fiu smerit/ă și să practic răbdarea. Trebuie să observ când standardele mele sunt prea înalte. Trebuie să mă sacrific mai puțin și să mă iubesc mai mult.",
+                "do": "Trebuie să mă implic în experiențe în care nu voi primi nicio admirație sau respect special. Trebuie să lucrez mai puțin și să mă iubesc mai mult. Trebuie să mă implic în experiențe plăcute doar de dragul plăcerii. Trebuie să mă relaxez. Trebuie să fiu atent/ă la sentimente şi relaţii.",
+                "obstacles": "Nevoia mea constantă de a mă simți important/ă și un lider, îngreunează atingerea obiectivului meu. Standardele înalte la care mă supun şi dorinţa mea de a sacrifica îngreunează atingerea obiectivului meu.",
+                "support": "Alții mă pot ajuta cu obiectivul meu când mă invită să încerc experiențe interesante, provocatoare sau distractive la care nu sunt expert. Mă pot asigura că mă iubesc pentru cine sunt şi nu pentru realizările mele. Îmi pot aminti să încetinesc și să mă încurajeze să lucrez mai puțin și să mă joc mai mult."
+            },
+            "secondNeed": [{
+                    "id": 4,
+                    "name": "Iubire/Conexiune",
+                    "text": "Voi avea probleme cu satisfacerea nevoii mele de dragoste/conexiune deoarece este dificil să iubești pe cineva care trebuie să se simtă important/ă tot timpul. Am o șansă mai bună dacă dragostea/conexiunea este principala mea nevoie, dar chiar și așa voi întâmpina dificultăți. Am dificultăți în a simți dragostea/conexiunea când nu mă simt important/ă și respectat/ă în același timp. Uneori încerc să mă simt conectat/ă şi iubit/ă pentru că sunt atât de important/ă şi tocmai asta îi îndepărtează pe oameni de mine. Dacă mă simt nesemnificativ/ă, nu mă simt iubit/ă şi aş putea încerca să mă simt conectat/ă prin confruntare şi intimidare. Acest lucru face dificilă colaborarea cu mine şi să fiu într-o relaţie stabilă pe termen lung.",
+                    "couples": [{
+                        "name": "Importanță și Dezvoltare",
+                        "text": "Este dificil pentru tine să te simți iubit/ă sau să oferi dragoste dacă nu te simți respectat/ă și important/ă; și este dificil să iubești pe cineva care trebuie să se simtă respectat/ă și important/ă în mod constant. Partenerul tău nu poate crește decât dacă se simte respectat și important; și dacă nu te apropii de procesul de învățare cu umilință este dificil să crești. Amândoi aveți conflicte interioare. Partenera/partenerul te poate vedea ca fiind prea nesigur/ă de iubirea ei/lui şi tu poți să îți vezi partenera/partenerul ca fiind detaşat/ă şi indiferent/ă. De asemenea, probabil vă găsiţi concurând pentru cine este mai important, mai simnificativ. O soluţie este să găsești semnificaţie prin a oferi şi primi dragoste iar partenerul să găsească semnificaţie prin creştere și dezvoltarea personală."
+                    }]
+                },
+                {
+                    "id": 5,
+                    "name": "Dezvoltare",
+                    "text": "Conflictul meu interior este că, pentru a crește trebuie să fiu dispus/ă să accept că există lucruri noi pe care să le învăț și noi abilități pe care le pot dezvolta. Cu toate acestea, uneori nevoia mea de a mă simți semnificativ/ă mă face să cred că deja știu totul. Acest conflict intern este mai îngrijorător dacă semnificația este principala nevoie iar dezvoltarea este nevoia secundară. Atunci când dezvoltarea este principala nevoie, pot satisface nevoia mea de semnificație crescând, dezvoltând noi competențe și învățând. Pentru că acestea sunt cele mai importante două nevoi ale mele, oamenii ar putea simți că nu sunt suficient de conectat/ă cu ei și că nu îmi pasă suficient de ei. Aș putea fi dificil ca cineva să lucreze cu mine pentru că atenția mea este pe propria persoană. Am tendința să am grijă de sănătatea mea atunci când face parte din nevoia mea de a simți că mă dezvolt și că sunt important/ă.",
+                    "couples": [{
+                        "name": "Importanță și contribuție",
+                        "text": "Chiar dacă păreți compatibili în sensul că amândoi aveți o nevoie puternică de semnificaţie, este dificil să ai două suveranităţi pe un tron. S-ar putea să descoperiți că concurați pentru cine este mai important. Nevoia de creștere și de contribuție sunt similare și compatibile, cu excepția faptului că vă pot purta în două direcții diferite și puteți pierde contactul unul cu celălalt. Partenerul/partenera poate simţi că sunteţi prea preocupat/ă de propria persoană şi tu poți să simţi că partenera/partenerul oferă prea mult altora."
+                    }]
+                },
+                {
+                    "id": 6,
+                    "name": "Contribuție",
+                    "text": "Conflictul meu interior este acela că, pentru a îndeplini nevoia mea de a contribui, trebuie să mă concentrez asupra altora, nu asupra mea; şi pentru a-mi îndeplini nevoia de a mă simţi important/ă şi semnificativ/ă, trebuie să mă concentrez asupra mea şi nu asupra celorlalţi. Acest conflict intern poate fi rezolvat dacă sunt în măsură să satisfac nevoia mea de semnificație prin contribuțiile pe care le aduc altora. Deoarece acestea sunt cele mai importante două nevoi ale mele, membrii familiei şi oamenii importanţi din viaţa mea ar putea simţi că nu sunt suficient de conectat/ă cu ei şi că nu îmi pasă suficient de ei. Ar putea fi dificil ca cineva să lucreze cu mine pentru că mă concentrez atât de mult pe ceea ce este important pentru mine. Aș putea să îmi neglijez sănătatea dacă simt că a avea grijă de mine însumi fizic și emoțional face dificil satisfacerea nevoii mea de a câștiga sentimentul de importanță și de a contribui în lume.",
+                    "couples": []
+                },
+                {
+                    "id": 2,
+                    "name": "Incertitudine/Varietate",
+                    "couples": [{
+                        "name": "Importanță și Incertitudine/Varietate",
+                        "text": "Amândoi trebuie să fiţi atenţi să vă ajutaţi reciproc să vă îndepliniți aceste nevoi. Riscul este ca fiecare dintre voi să găsească atât de multă semnificaţie în afara relaţiei şi/sau să vă bucuraţi de atât de multă incertitudine/varietate în afara relaţiei, încât să pierdeți legătura unul cu celălalt. Trebuie să vă oferiți reciproc suficientă importanță si să împărtășiți cel putin unele dintre activitățile care vă oferă varietate."
+                    }]
+                },
+                {
+                    "id": 1,
+                    "name": "Siguranță",
+                    "couples": [{
+                        "name": "Importanță și certitudine",
+                        "text": "Trebuie să răspundeți reciproc nevoii de semnificație, astfel încât să nu o găsiți în afara relației. Trebuie să puteți împărtăși cel puțin unele dintre strategiile care vă oferă certitudine."
+                    }]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Iubire/Conexiune",
+            "beliefs": "Pentru a mă simți vrednic/ă, trebuie să iubesc și să fiu iubit/ă. Am nevoie să am legături semnificative cu oamenii. Dacă nu sunt iubit/ă și nu pot să ofer iubire, sunt fără valoare.",
+            "benefits": "Sunt generos/generoasă cu cei pe care îi iubesc și îi pot proteja cu ferocitate. Sunt mămos/mămoasă și sunt responsabil/ă.",
+            "risks": "Trebuie să te iubești pe tine mai întâi. Nu ești indispensabil/ă pentru alții. A fi iubit/ă nu este echivalent cu a fi necesar/ă. ",
+            "consequences": "Pe principiul mă gândesc mai întâi la alții, îmi reprim propriile nevoi. Pot deveni intrusiv/ă. De multe ori nu pot spune „nu”. Fiindcă oferind altora mă aștept să fiu iubit/ă, sunt adesea dezamăgit/ă. Deseori nu sunt conștient/ă de nevoile mele. Pot fi intruziv/ă fără să îmi dau seama de asta. ",
+            "character": {
+                "focus": "Mă concentrez asupra relaţiilor cu cei pe care îi iubesc şi asupra modului de satisfacere a nevoilor lor. Am o mare empatie pentru sentimentele şi emoţiile altora. Mă aştept să fiu iubit/ă în schimb.",
+                "energy": "Mă concentrez pe înțelegerea și satisfacerea nevoilor celorlalți. Îmi place să simt că pot ajuta şi sunt mândru/mândră că pot face acest lucru. Am nevoie de aprobarea şi acceptarea oamenilor. Am mare energie când vine vorba de dăruire. Tânjesc după o iubire romantică.",
+                "health": "S-ar putea să mă concentrez atât de mult pe a avea grijă de alţii, încât îmi neglijez propria sănătate.",
+                "avoidance": "Voi face aproape orice pentru a nu mă simți ușor de înlocuit. Evit să îi dezamăgesc pe ceilalți şi să mă simt neapreciat/ă. Îmi este greu să tolerez respingerea.",
+                "strengths": "Sunt generos/ă, sensibil/ă, de nădejde și serviabil/ă. Pot relaționa cu oameni de toate vârstele și toate clasele sociale. Mă pricep să ascult pe cineva și să le fiu alături. Ofer sfaturi bune. Ofer cu generozitate timpul, energia si bunurile mele materiale. Empatizez cu suferința. Am profunzime emoțională.",
+                "communicationStyle": "Atenția mea este asupra altora și sunt prietenos/prietenoasă și deschis/ă. Mă exprim bine și mă grăbesc să ofer sfaturi. Îi susțin pe ceilalți. Cuvintele pe care le folosesc frecvent sunt: solidaritate, pasiune, unitate, căldură, sensibilitate și dorință. Uneori oamenii mă simt ca fiind intens/ă din punct de vedere emoțional.",
+                "stress": "Sunt stresat/ă atunci când nu sunt apreciat/ă pentru tot ceea ce ofer și când nu primesc iubire în schimb. Sunt de asemenea stresat/ă atunci când uneori oamenii mă percep ca intruziv/ă sau controlator/controlatoare. Să mă simt solicitat/ă de mulți oameni e stresant pentru mine și nu ajută faptul că sunt confuz/ă în legătură cu propriile nevoi. Investesc prea mult în relații dificile. Uneori invidiez ceea ce au alții și ceea ce nu îmi este accesibil emoțional.",
+                "defensiveness": "Devin defensiv/ă atunci când oamenii îmi spun cum să trăiesc, mai ales când insistă că ar trebui să ofer mai puțin altora. Mă pot înfuria dacă mă simt controlat/ă şi dacă oamenii îmi atribuie intenţii răuvoitoare. Mă pot mânia când oamenii sunt cruzi. Pot deveni defensiv/ă și atunci când simt că sunt înțeles/înțeleasă greșit.",
+                "emotions": "Îmi fac multe griji pentru alții. Pot să mă învinovățesc cu ușurință pe mine și/au pe alții. Uneori am resentimente şi izbucniri furioase când nu mă simt apreciat/ă sau sunt tratat/ă cu indiferență. Când sunt departe de cei pe care îi iubesc, simt o mare durere purtându-le dorul. Adesea, sunt posesiv/ă față de cei pe care îi iubesc. Simt cu profunzime şi sunt idealist/ă. Tânjesc după ceea ce lipseşte în viaţa mea. Pot fi foarte emoţional/ă şi mă pot adânci în depresie."
+            },
+            "growthBalance": {
+                "goal": "Trebuie să am mai multă grijă de mine şi să fiu mai conştient/ă de propriile mele nevoi. Trebuie să simt că pot fi iubit/ă pentru cine sunt, nu pentru ceea ce dăruiesc. ",
+                "do": "Trebuie să practic stabilirea de limite pentru ceea ce dăruiesc, trebuie să dezvolt claritatea cu privire la propriile mele nevoi și la modul în care le pot satisface. Trebuie să îmi dau seama când pot fi văzut/ă ca intruziv/ă sau controlator/controlatoare. Trebuie să-mi onorez sentimentele și idealismul.",
+                "obstacles": "Îmi este greu să îmi ating obiectivul din cauza nevoii mea de a oferi și a-i ajuta pe alții. Mă simt adesea vinovat/ă atunci când acord atenție propriilor nevoi. Îmi este greu să îmi ating obiectivul din cauza mândriei mele de a nu acorda atenţie propriilor nevoi, şi fricii de a fi egoist/ă. Am dificultăţi în a cere ceva şi în a primi de la alţii. Cred că sunt iubit/ă pe baza a ceea ce ofer.",
+                "support": "Alții îmi mă pot încuraja să devin mai independentă fiind mai independenți față de mine, în loc să devină dependenți de ceea ce dăruiesc. Alţii m-ar putea întreba despre nevoile mele şi să fie interesați de ele. Apreciați ceea ce ofer şi ori de câte ori spun „nu”. În loc să încerce să mă schimbe, oamenii s-ar putea concentra să mă înțeleagă."
+            },
+            "secondNeed": [{
+                    "id": 5,
+                    "name": "Dezvoltare",
+                    "text": "Conflictul meu interior este că nevoia mea de creştere personală mă împiedică să pun suficientă atenție şi energie pe formarea de legături cu alţii, și pe oferirea şi primirea de iubire. Pentru a creşte, trebuie să mă concentrez asupra mea şi nu asupra altora; şi pentru a-mi satisface nevoia de iubire/conexiune, trebuie să mă concentrez asupra altora şi nu asupra mea. Acest conflict intern poate fi rezolvat dacă sunt în măsură să-mi satisfac nevoia de creștere prin iubire și conexiunea cu ceilalți. Când dezvoltarea personală este nevoia cea mai mare, s-ar putea să nu mă simt iubit/ă şi conectat/ă decât dacă simt că mă dezvolt. Atunci când iubirea/conexiunea este pe primul loc, este posibil să nu pot simți că mă dezvolt decât dacă sunt conectat/ă și iubit/ă. Vreau adesea ca partenerul/partenera să contribuie în experiențele mele de creștere astfel încât să mă simt conectat/ă și iubit/ă prin creștere.",
+                    "couples": [{
+                        "name": "Iubire/conexiune și contribuție",
+                        "text": "Șansele sunt să aveți o relație extraordinară deoarece amândoi valorificați și aveți nevoie de iubire și conexiune, și deoarece creșterea și contribuția sunt similare în măsura în care ambele sunt nevoi spirituale. Atunci când nevoia ta de creștere te îndreaptă într-o anumită direcție, iar nevoia lui/ei de contribuție o conduce în altă direcție; trebuie să fiţi atenţi să vă amintiți că iubirea şi conexiunea sunt foarte importante pentru voi amândoi şi vă va aduce împreună."
+                    }]
+                },
+                {
+                    "id": 6,
+                    "name": "Contribuție",
+                    "text": "În cazul în care nevoia mea de contribuţie este pe primul loc, am probleme cu cei pe care îi iubesc pentru că ar putea simţi că a contribui altora sau lumii este mai important pentru mine decât ei. Acest conflict este mai puțin sever dacă nevoia mea principală este de iubire/conexiune și contribuția este a doua, întrucât îmi voi putea îndeplini nevoia de contribuţie doar dacă simt iubire și conexiune. Acest conflict este rezolvat dacă nevoia mea de a contribui este în mare parte îndeplinită de nevoia mea de a-i iubi pe alţii. Deseori vreau ca partenerul/partenera să participe în contribuțiile pe care le fac, astfel încât să mă simt conectat/ă și iubit/ă prin contribuție.",
+                    "couples": []
+                },
+                {
+                    "id": 3,
+                    "name": "Importanță",
+                    "couples": [{
+                        "name": "Iubire/Conexiune și Importanță",
+                        "text": "Amândoi aveți același conflict intern în care tânjiți după iubire, dar trebuie să vă simțiți importanți și respectați; și este dificil să iubești pe cineva care trebuie să se simtă important/ă tot timpul. Trebuie să fii atent/ă să faci iubirea/conexiunea mai importantă decât semnificația. Să fi atent/ă ca nu cumva să nu îți oferi iubirea decât dacă te simți respectat/ă și important/ă."
+                    }]
+                },
+                {
+                    "id": 2,
+                    "name": "Incertitudine/Varietate",
+                    "couples": [{
+                        "name": "Iubire/Conexiune și Incertitudine/Varietate",
+                        "text": "Amândoi trebuie să fiți atenți pentru a face iubirea/conexiunea mai importantă decât incertitudinea/varietatea. Altfel riscați să vă implicați prea mult în activități din afara relației și să pierdeți contactul unul cu celălalt. Dacă aveți aceleași modalități pentru a satisface nevoia de incertitudine/varietate, puteți fi foarte compatibili și puteți avea o relație plăcută și minunată."
+                    }]
+                },
+                {
+                    "id": 1,
+                    "name": "Siguranță",
+                    "couples": [{
+                        "name": "Iubire/conexiune și certitudine",
+                        "text": "Amândoi trebuie să fiţi atenţi să nu condiţionaţi acordarea şi primirea iubirii de gradul de certitudine pe care îl simţiţi. Trebuie să poți tolera un anumit grad de incertitudine și să îți lași inima deschisă iubirii."
+                    }]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Dezvoltare",
+            "beliefs": "Trebuie să dezvolt în mod constant abilități noi, să învăț lucruri noi și să îmbunătățesc ceea ce știu deja. Trebuie să mă dezvolt fizic, emoţional, intelectual şi/sau spiritual. Trebuie să cresc constant.",
+            "benefits": "Întotdeauna există o nouă provocare și ceva nou de învățat. Nu depind de alții pentru a găsi bucurie în învățare. Sunt autonom/ă și activ/ă în urmărirea obiectivelor mele. Nu sunt atașat/ă de posesiunile materiale. Nu e vorba de ceea ce am; este vorba despre ceea ce ştiu şi pot face eu.",
+            "risks": "Să te conectezi cu alții și să oferi altora te poate împlini mai mult decât dobândirea de noi cunoștințe și competențe. Poate exista mai multă plăcere în partajare decât în acumulare.",
+            "consequences": "Pot fi văzut/ă ca fiind rezervat/ă şi. închis/ă în mine. Pot să devin detaşat/ă şi excesiv de privat/ă. Am tendinţa de a subevalua relațiile.",
+            "character": {
+                "focus": "Mă concentrez pe învățare, studiu, dezvoltarea abilităților mele și pe a fi cât pot de bun/ă.",
+                "energy": "Îmi conserv energia şi nu mă concentrez asupra emoțiilor pentru a învăţa tot ce trebuie învăţat. Sunt independent/ă și îmi setez limite cu atenție pentru a-mi proteja timpul și viața privată.",
+                "health": "Dacă nevoia mea de a crește este legată de dezvoltarea fizică, voi face tot ceea ce este necesar pentru a rămâne sănătos/ă și în formă bună.",
+                "avoidance": "Voi face orice pentru a evita să mă simt neadecvat/ă sau secătuit/ă. Evit cererile şi intruziunile asupra intimităţii mele, lucru care îmi permite să mă concentrez asupra dezvoltării personale.",
+                "strengths": "Sunt respectuos/respectuoasă față de ceilalți. Sunt atent/ă, calm/ă și de încredere. Îmi place să cred că sunt un model de autoperfecționare pentru alții.",
+                "communicationStyle": "Pentru că îmi place să mă concentrez pe conţinut şi fapte, oamenii m-ar putea considera distant/ă. Cuvintele pe care le folosesc frecvent sunt: Eu, însămi, persoana mea, știu, învăț, cresc, dezvolt, înțeleg, analizez, realizez, obiective.",
+                "stress": "Am stresat/ă când mă simt obosit/ă sau dependent/ă de alții. Intruziunile asupra intimității mele sunt stresante pentru mine.",
+                "defensiveness": "Devin defensiv/ă când există intruziuni sau limitări în ceea ce vreau să fac. Mă pot supăra când oamenii interferează cu nevoia mea de intimitate.",
+                "emotions": "Sunt atent/ă când îmi exprim emoţiile, dar pot avea izbucniri de mânie când mă simt deranjat/ă."
+            },
+            "growthBalance": {
+                "goal": "Obiectivul meu este să urmăresc să cresc, în timp ce mă bucur de relații și legături cu oamenii. Trebuie să pot experimenta bucurie şi plăcere în multe moduri, nu doar prin învăţare.",
+                "do": "Trebuie să găsesc un echilibru în viaţă concentrându-mă mai mult asupra altora, decât asupra propriei mele creşteri şi dezvoltări. Trebuie să simt plăcerea în a oferi, să fiu mai puţin rezervat/ă şi să acord prioritate iubirii şi relaţiilor. Trebuie să am mai multă grijă de cei pe care îi iubesc.",
+                "obstacles": "Credința că nu sunt vrednic/ă dacă nu mă îmbunătățesc în mod constant. Importanţa pe care o acord intimităţii face dificilă atingerea obiectivului meu. Trebuie să recunosc că pot părea egoist/ă.",
+                "support": "Alţii pot aprecia capacitatea mea de a fi autonom/ă, independent/ă, precum şi dorinţa mea de a trăi şi de a-i lăsa pe alții să trăiască, iar în acelaşi timp, să mă încurajeze să fiu mai social/ă şi mai iubit/iubitoare."
+            },
+            "secondNeed": [{
+                    "id": 6,
+                    "name": "Contribuție",
+                    "text": "Aș putea să am probleme cu cei pe care îi iubesc, deoarece ar putea simți că nevoia mea de a crește și de a contribui este mai importantă pentru mine decât sunt ei. S-ar putea să se simtă neglijați și să aibă resentimente. Acest conflict poate fi rezolvat dacă nevoia mea de creştere şi contribuţie include contribuţia față de cei pe care îi iubesc şi îi susținerea lor să crească în modurile în care doresc să crească. Aș putea avea conflicte cu partenerul/partenera, dacă vreau ca el/ea să aprecieze creșterea și contribuția în același mod în care o fac eu.",
+                    "couples": [{
+                            "name": "Creștere și Contribuție",
+                            "text": "Sunteţi foarte compatibili prin faptul că aveţi aceleaşi nevoi, dar trebuie să fiţi atenţi să nu mergeţi în direcţii diferite şi să pierdeţi legătura unul cu celălalt."
+                        },
+                        {
+                            "name": "Certitudine și iubire/conexiune",
+                            "text": "Vă puteţi completa reciproc, fiecare dintre voi acordând atenţie zonelor în care celălalt este mai slab. Totuşi, este posibil să simţi că partenerul/partenera se agaţă de tine şi că are nevoie de prea multă asigurare că îţi pasă şi că eşti acolo pentru el/ea. Partenera/Partenerul ar putea simți că ești prea interesat/ă de propria ta dezvoltare personală și că oferi altora mai degrabă decât ei/lui."
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Iubire/Conexiune",
+                    "couples": [{
+                        "name": "Creștere și iubire/conexiune",
+                        "text": "Sunteți foarte compatibili și probabil aveți o relație extraordinară pentru că amândoi puneți atât de multă valoare pe iubire/conexiune și aveți atât de multă nevoie de ea. Trebuie doar să fiți atenți ca activitățile voastre de creștere să nu vă poarte în direcții diferite, unde ați putea pierde contactul unul cu celălalt."
+                    }]
+                },
+                {
+                    "id": 3,
+                    "name": "Importanță",
+                    "couples": [{
+                            "name": "Creștere și Semnificație",
+                            "text": "Sunteţi foarte asemănători, dar nu neapărat compatibili, pentru că vă puteţi găsi concurând pentru cine este mai important. Activităţile de creştere vă pot purta în direcţii diferite şi puteţi avea atât de multă semnificaţie crescând încât vă puteţi pierde contactul unul cu celălalt."
+                        },
+                        {
+                            "name": "Importanță și contribuție ",
+                            "text": "Chiar dacă păreți compatibili în sensul că amândoi aveți o nevoie puternică de semnificaţie, este dificil să ai două suveranităţi pe un tron. S-ar putea să descoperiți că concurați pentru cine este mai important. Nevoia de creștere și de contribuție sunt similare și compatibile, cu excepția faptului că vă pot purta în două direcții diferite și vă puteți pierde contactul unul cu celălalt. Partenerul/partenera poate simţi că sunteţi prea preocupat de propria persoană şi tu poți să simţi că partenera/partenerul oferă prea mult altora."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Incertitudine/Varietate",
+                    "couples": [{
+                        "name": "Creștere și Incertitudine/Varietate",
+                        "text": "Trebuie să fii atent/ă să împărtășești cel puțin unele dintre activitățile tale cu el/ea, astfel încât să nu te implici atât de mult în afara relației, încât să pierdeți contactul unul cu celălalt. Puteţi avea o relaţie remarcabilă dacă sunteţi atent/ă să nu vă neglijaţi unul pe celălalt."
+                    }]
+                },
+                {
+                    "id": 1,
+                    "name": "Siguranță",
+                    "couples": [{
+                        "name": "Dezvoltare și certitudine",
+                        "text": "Aveţi acelaşi conflict intern, deoarece creşterea implică întotdeauna o anumită incertitudine, ceea ce este dificil pentru voi să toleraţi. Puteți fi foarte compatibili atâta timp cât folosiți aceleași strategii pentru a vă satisface nevoile de certitudine și creștere. Altfel, puteți să vă distanțați unul de celălalt."
+                    }]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Contribuție",
+            "beliefs": "Viaţa este incompletă dacă nu ofer o contribuţie sau sunt implicat/ă într-o cauză. Trebuie să îmi depăşesc propriile nevoi şi să ofer altora. Vreau să dau înapoi şi să îmi las amprenta în lume.",
+            "benefits": "Concentrându-mă pe ceva dincolo de mine, majoritatea problemelor mele şi surselor mele de durere devin mai puţin semnificative. Obțin certitudine, deoarece știu că există întotdeauna o modalitate de a contribui, Am varietate, deoarece există multe moduri diferite de a aduce o contribuţie. Am semnificaţie pentru că ştiu că îi ajut pe alţii. Legătura spirituală care se dezvoltă ajutându-i pe alții îmi dă un sentiment de conexiune. Cresc și mă dezvolt ajutându-i pe alții.",
+            "risks": "Pierd din vedere faptul că binefacerea începe acasă. Am grijă de atâţia oameni sau de o cauză atât de importantă încât uneori neglijez să am grijă de mine şi de cei dragi.",
+            "consequences": "O consecinţă este că sănătatea mea fizică, emoţională sau spirituală ar putea suferi. Uneori îmi neglijez relaţiile personale şi oamenii pot ajung să dezvolte resentimente în ceea ce priveşte timpul şi energia pe care le investesc într-o cauză.",
+            "character": {
+                "focus": "Atenția mea este asupra lumii, asupra unei cauze, cum să îi ajut pe alţii, cum să contribui.",
+                "energy": "Sunt energică și concentrată spre exterior până în punctul în care mă pot epuiza.",
+                "health": "Aş dori să rămân sănătos/ă, dar nevoia mea de a contribui mă poate determina să mă neglijez pe mine şi sănătatea mea.",
+                "avoidance": "Evit să fiu slab/ă, dependent/ă și lipsit/ă de putere. Nu vreau să pierd respectul oameniilor de care îmi pasă.",
+                "strengths": "Sunt curajos/ă, sârguincios/sârguincioasă, generos/ă și asertiv/ă.",
+                "communicationStyle": "Sunt energic/ă și hotărât/ă, dar pot fi văzut/ă ca fiind controlator/controlatoare și nepăsător/nepăsătoare față de opiniile altora. Cuvintele pe care le folosesc frecvent sunt: idealuri, justiţie, cauză, corectitudine, compasiune şi dăruire.",
+                "stress": "Pot să mă forțez până la epuizare şi să sufer de oboseală cronică. Injustiţia mă stresează. Îmi este greu să mă abțin să nu lupt împotriva lipsei de dreptate și egalitate.",
+                "defensiveness": "Devin defensiv/ă cu oamenii care încearcă să mă controleze şi cu oamenii care sunt înşelători. Sunt defensiv/ă atunci când oamenii sunt indiferenți față de cauze și idealuri importante.",
+                "emotions": "Sunt entuziast/ă și extrovert/ă dar pot să devin mânios/mânioasă și agresiv/ă."
+            },
+            "growthBalance": {
+                "goal": "Scopul meu este să găsesc un echilibru între a avea grijă de mine, cei dragi şi nevoia de a contribui la binele mai mare.",
+                "do": "Trebuie să observ că pot ajunge să par prea intens/ă. Am nevoie să am grijă de mine. Trebuie să am grijă de relațiile mele.",
+                "obstacles": "Contribuţia satisface toate nevoile mele la un nivel atât de ridicat încât adesea îmi ignor propriile nevoi şi mă neglijez pe mine şi pe alţii. Stilul meu de viaţă poate duce la epuizare. Nevoia mea de a fi întotdeauna puternic/ă şi să îmi neg vulnerabilitatea poate îngreuna atingerea scopului meu.",
+                "support": "Alţii mă pot încuraja să am grijă de mine şi să îmi exprim vulnerabilităţile. Pot exprima cu determinare ceea ce au nevoie de la mine în ceea ce privește atenţia şi energia mea."
+            },
+            "secondNeed": [{
+                "id": 5,
+                "name": "Dezvoltare",
+                "text": "Aș putea să am probleme cu cei pe care îi iubesc, deoarece ei pot simți că nevoia mea de a crește și de a contribui este mai importantă pentru mine decât sunt ei. S-ar putea să se simtă neglijați şi să aibă resentimente. Acest conflict poate fi rezolvat dacă nevoia mea de creştere şi contribuţie include contribuţia față de cei pe care îi iubesc şi să îi sprijin să crească în modurile în care își doresc să crească. Aș putea avea conflicte cu partenerul/partenera, dacă vreau ca el/ea să aprecieze creșterea și contribuția în același fel ca mine.",
+                "couples": [{
+                        "name": "Creștere și Contribuție",
+                        "text": "Sunteţi foarte compatibil prin faptul că aveţi aceleaşi nevoi, dar trebuie să fiţi atenţi să nu mergeţi în direcţii diferite şi să pierdeţi legătura unul cu celălalt."
+                    },
+                    {
+                        "name": "Certitudine și iubire/conexiune",
+                        "text": "Vă puteţi completa reciproc, fiecare dintre voi acordând atenţie zonelor în care celălalt este mai slab. Totuşi, este posibil să simţi că partenerul/partenera se agaţă de tine şi că are nevoie de prea multă asigurare că îţi pasă şi că eşti acolo pentru el/ea. Partenerul/partenera ar putea simți că ești prea interesat/ă de propria ta dezvoltare personală și că oferi altora mai degrabă decât lui/ei."
+                    }
+                ]
+            }]
+        }
+    ]
+}

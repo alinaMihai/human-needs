@@ -41,16 +41,16 @@ const Quiz = () => {
   return (
     <div>
       <header>
-  <h1>{t('title')}</h1>
+  <h1>{t('translation:title')}</h1>
       </header>
       <main>
         {!showTest && <span className="subtitle">
-        Every statement must be answered as: “No,” “Partly,” or “Yes.” Honestly grade each statement: “Yes,” for “yes, this is really me.” “Partly” for this is partly how I am,” and “No” for “This is probably not how I am.” (If you don’t know whether it applies, it’s usually best to check “no.”)
-        <p>To begin the test click <button onClick={onShowTest}>Start</button></p> 
+        {t('translation:subtitle')}
+        <p>{t('translation:startTest')} <button onClick={onShowTest}>Start</button></p> 
         </span>}
         {showTest && <div className={'test'}>
           <div className={'progressBar'}>
-          Progress {progressPercentage} %
+          {t('translation:progress')} {progressPercentage} %
           </div>
           <Line percent={progressPercentage} strokeWidth="4" strokeColor={color} />
           <QuestionSet handleSubmit={handleSubmit} nextQuestion={changeState}/>

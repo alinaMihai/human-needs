@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
+import {useTranslation} from 'react-i18next';
 import './Options.css';
 const Options = ({onAnswer, selected, id}) => {
+    const {t} = useTranslation();
     const [selectedValue,
         setSelectedValue] = useState();
 
@@ -15,21 +17,21 @@ const Options = ({onAnswer, selected, id}) => {
                 name={id}
                 checked={selectedValue === '10'}
                 onChange={onAnswer}/>
-                <span>Yes</span></label>
+                <span>{t('translation:optionYes')}</span></label>
             <label><input
                 type='radio'
                 value={5}
                 name={id}
                 checked={selectedValue === '5'}
                 onChange={onAnswer}/>
-                <span>Partly</span></label>
+                <span>{t('translation:optionPartly')}</span></label>
             <label><input
                 type='radio'
                 value={0}
                 name={id}
                 checked={selectedValue === '0'}
                 onChange={onAnswer}/>
-                <span>No</span></label>
+                <span>{t('translation:optionNo')}</span></label>
         </div>
     );
 };

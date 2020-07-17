@@ -1,10 +1,13 @@
 import React, {useState } from 'react';
+import {useTranslation} from 'react-i18next';
 import 'rc-progress/assets/index.css';
 import './QuestionSet.css';
 import Question from '../Question/Question';
-import data from '../../data/questions.json';
+const questionsNo = 84;
 
 const QuestionSet = ({handleSubmit, nextQuestion}) => {
+   const {t} = useTranslation();
+   const data = t('questions:questions');
    const [answers, setAnswers] = useState({});
    const [currentQuestion, setCurrentQuestion] = useState(data[0]);
    const [currentIndex, setCurrentIndex] = useState(1);
@@ -15,7 +18,7 @@ const QuestionSet = ({handleSubmit, nextQuestion}) => {
     };
 
     const goNext = () => {
-        if(currentIndex < data.length) {
+        if(currentIndex < questionsNo) {
             setCurrentIndex(currentIndex+1);
             setCurrentQuestion(data[currentIndex - 1 + 1]);
             nextQuestion(currentIndex);
@@ -31,7 +34,7 @@ const QuestionSet = ({handleSubmit, nextQuestion}) => {
     }
 
     const isNextDisabled = () => {
-        return !answers[currentIndex] || currentIndex > data.length;
+        return !answers[currentIndex] || currentIndex > questionsNo;
     }
     const isPrevDisabled = () => {
         return currentIndex - 2 < 0;
@@ -51,12 +54,12 @@ const QuestionSet = ({handleSubmit, nextQuestion}) => {
             />
             <div className='nav'>
             <button type="button" className="prevBtn" onClick={goPrev} disabled={isPrevDisabled()}>
-              Previous
+              {t('translation:previous')}
             </button>
-             {currentIndex < data.length && <button type="button" className="nextBtn" onClick={goNext} disabled={isNextDisabled()}>
-              Next
+             {currentIndex < questionsNo && <button type="button" className="nextBtn" onClick={goNext} disabled={isNextDisabled()}>
+             {t('translation:next')}
             </button>}
-            {currentIndex === data.length && <button type="button" disabled={isSubmitDisabled()} onClick={() => handleSubmit(answers)}>See results</button>}
+            {currentIndex === questionsNo && <button type="button" disabled={isSubmitDisabled()} onClick={() => handleSubmit(answers)}>See results</button>}
             </div>
         </div>
     );

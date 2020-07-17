@@ -1,12 +1,14 @@
 import React, {useEffect, useState, useCallback} from 'react';
+import {useTranslation} from 'react-i18next';
 import {interpretAnswers} from '../../helpers/interpretAnswers';
-import needs from '../../data/needs.json';
 import './Results.css';
 import ResultsChart from './ResultsChart/ResultsChart';
 
 
 
 const Results = () => {
+  const {t} = useTranslation();
+  const needs = t('needs:needs');
     const [answersData, setAnswersData] = useState({});
     const [results,
         setResults] = useState();
@@ -53,41 +55,41 @@ const Results = () => {
             : {};
         return (
             <div>
-                <h1 className="section"> Your first need is for {firstNeed.name}</h1>
-                <div className="title">YOUR BELIEFS</div>
+                <h1 className="section"> {t('translation:results.firstNeed')} {firstNeed.name}</h1>
+                <div className="title">{t('translation:results.beliefs')}</div>
                 <div>{firstNeed.beliefs}</div>
-                <div className="title">How this Belief Serves You</div>
+        <div className="title">{t('translation:results.benefits')}</div>
                 <div className="content">{firstNeed.benefits}</div>
-                <div className={"title"}>The Principles You Lost Sight Of</div>
+                <div className={"title"}>{t('translation:results.risks')}</div>
                 <div>{firstNeed.risks}</div>
-                <div className={"title"}>The Consequences of Losing Sight of This Principle</div>
+                <div className={"title"}>{t('translation:results.consequences')}</div>
                 <div className="content">{firstNeed.consequences}</div>   
-                <h2 className="section">Character</h2>
-                {[  {name: 'Focus', value: firstNeed.character.focus},
-                    {name: "Energy", value: firstNeed.character.energy},
-                    { name: "Health", value: firstNeed.character.health},
-                    { name: "What You Avoid", value: firstNeed.character.avoidance},
-                    { name: "Strengths", value: firstNeed.character.strengths},
-                    { name: "Communication Style", value: firstNeed.character.communicationStyle},
-                    { name: "Stress", value: firstNeed.character.stress},
-                    { name: "Defensiveness", value: firstNeed.character.defensiveness},
-                    {name: "Emotions", value: firstNeed.character.emotions}
+                <h2 className="section">{t('translation:results.character.title')}</h2>
+                {[  {name: t('translation:results.character.focus'), value: firstNeed.character.focus},
+                    {name: t('translation:results.character.energy'), value: firstNeed.character.energy},
+                    { name: t('translation:results.character.health'), value: firstNeed.character.health},
+                    { name: t('translation:results.character.avoidance'), value: firstNeed.character.avoidance},
+                    { name: t('translation:results.character.strengths'), value: firstNeed.character.strengths},
+                    { name: t('translation:results.character.communicationStyle'), value: firstNeed.character.communicationStyle},
+                    { name: t('translation:results.character.stress'), value: firstNeed.character.stress},
+                    { name: t('translation:results.character.defensiveness'), value: firstNeed.character.defensiveness},
+                    {name: t('translation:results.character.emotions'), value: firstNeed.character.emotions}
                     
                 ].map((item, i) => (
                 <div key={i}><div className="title">{item.name}</div><div className="content">{item.value}</div></div>
                 ))} 
-                <h3 className="section">Growth and Balance</h3>
-                {[{name: "Your Goal", value: firstNeed.growthBalance.goal},
-                  {name: "What To Do", value: firstNeed.growthBalance.do}, 
-                  {name: "What Interferes with Your Goal", value: firstNeed.growthBalance.obstacles}, 
-                  {name: "How Others Can Support You In Your Goal", value: firstNeed.growthBalance.support}]
+                <h3 className="section">{t('translation:results.growthBalance.title')}</h3>
+                {[{name: t('translation:results.growthBalance.goal'), value: firstNeed.growthBalance.goal},
+                  {name:  t('translation:results.growthBalance.do'), value: firstNeed.growthBalance.do}, 
+                  {name:  t('translation:results.growthBalance.do'), value: firstNeed.growthBalance.obstacles}, 
+                  {name:  t('translation:results.growthBalance.support'), value: firstNeed.growthBalance.support}]
                 .map((item, i) => <div key={i}><div className="title">{item.name}</div><div>{item.value}</div></div>)}
 
-                <h4 className="section">Your Second Need is for {secondNeedData.name}</h4>
+                <h4 className="section">{t('translation:results.secondNeedTitle')} {secondNeedData.name}</h4>
                 <div>{secondNeedData.text}</div> 
-                {secondNeedData.couples.length > 0 && <><h5 className="section">Couples by First Two Needs</h5>
+                {secondNeedData.couples.length > 0 && <><h5 className="section">{t('translation:results.secondNeed.couples.title')}</h5>
                 {secondNeedData.couples.map((couple, i) => (<div key={i} className="couple">
-                    <div className="title">If your first two needs are for <strong>{firstNeed.name}</strong> and <strong>{secondNeedData.name}</strong> and your partner's first two needs are for <strong>{couple.name}</strong>
+                    <div className="title">{t('translation:results.secondNeed.couples.para1')} <strong>{firstNeed.name}</strong> {t('translation:results.secondNeed.couples.para2')} <strong>{secondNeedData.name}</strong> {t('translation:results.secondNeed.couples.para3')} <strong>{couple.name}</strong>
                 </div><div>{couple.text}</div>
                 
                 </div>))}
@@ -104,13 +106,13 @@ const Results = () => {
 
     return (
         <div className="resultsContainer">
-            <h1>Here is the Interpretation of your answers</h1>
+            <h1>{t('translation:results.title')}</h1>
             <div className="chart">
-            Your needs (higher means influences your life decisions more):
+            {t('translation:results.subtitle')}
             <ResultsChart series={chartSeries}/>
             </div> 
             <div className="numbers">
-                Your needs in order (higher means influences your life decisions more):
+                {t('translation:results.subtitle')}
                 {[...answers].sort((a, b) => {
             return b.value - a.value
         }).map((answer, i) => (
@@ -122,7 +124,7 @@ const Results = () => {
             {results}
             <footer>
              <br/>
-            <a href=" https://cloemadanes.com/" target="_blank" title="Cloé Madanes's site" rel="noopener noreferrer" ><strong>Cloé Madanes</strong></a> is the author of the original test (paper form), so she deserves credit for any insights you received here.
+            <a href=" https://cloemadanes.com/" target="_blank" title="Cloé Madanes's site" rel="noopener noreferrer" ><strong>Cloé Madanes</strong></a> {t('translation:results.credit')}
             </footer>
         </div>
     );

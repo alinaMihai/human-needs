@@ -44,7 +44,7 @@ const LanguageChange = () => {
 
 return (
     <div className="languageChangeContainer">
-        <span>{t('languageChange')}</span>{displaySelect()}
+        <span>{t('translation:languageChange')}</span>{displaySelect()}
     </div>
 );
 };
