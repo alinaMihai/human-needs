@@ -81,15 +81,15 @@ const Results = () => {
                 <h3 className="section">{t('translation:results.growthBalance.title')}</h3>
                 {[{name: t('translation:results.growthBalance.goal'), value: firstNeed.growthBalance.goal},
                   {name:  t('translation:results.growthBalance.do'), value: firstNeed.growthBalance.do}, 
-                  {name:  t('translation:results.growthBalance.do'), value: firstNeed.growthBalance.obstacles}, 
+                  {name:  t('translation:results.growthBalance.obstacles'), value: firstNeed.growthBalance.obstacles}, 
                   {name:  t('translation:results.growthBalance.support'), value: firstNeed.growthBalance.support}]
                 .map((item, i) => <div key={i}><div className="title">{item.name}</div><div>{item.value}</div></div>)}
 
                 <h4 className="section">{t('translation:results.secondNeedTitle')} {secondNeedData.name}</h4>
                 <div>{secondNeedData.text}</div> 
-                {secondNeedData.couples.length > 0 && <><h5 className="section">{t('translation:results.secondNeed.couples.title')}</h5>
+                {secondNeedData.couples.length > 0 && <><h5 className="section">{t('translation:results.couples.title')}</h5>
                 {secondNeedData.couples.map((couple, i) => (<div key={i} className="couple">
-                    <div className="title">{t('translation:results.secondNeed.couples.para1')} <strong>{firstNeed.name}</strong> {t('translation:results.secondNeed.couples.para2')} <strong>{secondNeedData.name}</strong> {t('translation:results.secondNeed.couples.para3')} <strong>{couple.name}</strong>
+                    <div className="title">{t('translation:results.couples.para1')} <strong>{firstNeed.name}</strong> {t('translation:results.couples.para2')} <strong>{secondNeedData.name}</strong> {t('translation:results.couples.para3')} <strong>{couple.name}</strong>
                 </div><div>{couple.text}</div>
                 
                 </div>))}

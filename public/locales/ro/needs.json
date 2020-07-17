@@ -1,7 +1,7 @@
 {
     "needs": [{
             "id": 1,
-            "name": "Siguranță",
+            "name": "Certitudine",
             "beliefs": "Trebuie să mă simt în siguranță, protejat/ă şi confortabil/ă şi trebuie să mă asigur că voi fi în siguranță, protejat/ă şi confortabil/ă în viitor. Evitarea durerii este foarte importantă pentru mine. Nu pot fi fericit/ă când sunt nesigur/ă în legături cu lucrurile",
             "benefits": "Evit riscurile și plănuiesc cu atenție viitorul. Sunt atent/ă și am grijă de mine. Oamenii știu că sunt previzibil/ă. Știu cum să fiu organizat/ă.",
             "risks": "Viitorul este imprevizibil; tot ceea ce avem este momentul actual, unde nu există riscuri, nu există câștig. Este posibil să fim nesiguri de viitor, dar fericiţi în prezent.",
@@ -139,7 +139,7 @@
                 },
                 {
                     "id": 1,
-                    "name": "Siguranță",
+                    "name": "Certitudine",
                     "couples": [{
                         "name": "Incertitudine/Varietate și Certitudine ",
                         "text": "Amândoi aveţi un război intern între nevoia de certitudine şi nevoia de diversitate. Trebuie să vă ajutați unul pe celălalt în satisfacerea acestor nevoi în moduri rezonabile pe care le împărtășiți, astfel încât să nu pierdeți contactul unul cu celălalt."
@@ -161,7 +161,7 @@
                 "avoidance": "Evit oamenii care nu mă admir/ă sau nu mă tratează cu respect. Evit situaţiile în care nu pot simţi că sunt foarte important/ă. Nu tolerez respingerea. Voi face orice pentru a evita să fiu umbrit/ă de alții. Urăsc să fiu umilit/ă în fața altora.",
                 "strengths": "Lucrez din greu și mă străduiesc să merit respectul și admirația pe care o tânjesc. Sunt dispus/ă să îmi asum responsabilitatea până la sacrificiul de sine. Sunt neobosit/ă în îndeplinirea obiectivelor mele. Sunt un lider. Susțin ceea ce cred. Nu mă tem de risc sau confruntare.",
                 "communicationStyle": "Deseori vorbesc despre realizările mele, sacrificiile mele, inteligența mea, punctele mele forte și farmecul mea. Poate părea că nu îmi pasă de părerile altora. Unele dintre cuvintele pe care le folosesc frecvent sunt: mândrie, importanță, standarde, realizare, performanță, perfecțiune, evaluare, disciplină, concurență și respingere.",
-                "stress": "Sunt stresat/ă atunci când simt că nu sunt la înălțimea standardelor mele. Mă stresează să nu fiu respectat/ă şi auzit/ă şi sentimentul că nu sunt un lider. Simt presiune să obține prestigiu, putere și statut. Sunt stresat/ă pentru că fac prea multe și pentru că nu sunt contact/ă cu valorile mele.",
+                "stress": "Sunt stresat/ă atunci când simt că nu sunt la înălțimea standardelor mele. Mă stresează să nu fiu respectat/ă şi auzit/ă şi sentimentul că nu sunt un lider. Simt presiune să obțin prestigiu, putere și statut. Sunt stresat/ă pentru că fac prea multe și pentru că nu sunt contact/ă cu valorile mele.",
                 "defensiveness": "Devin defensiv/ă la cea mai mică critică și atunci când oamenii îmi spun ce să fac. Orice lucru care implică faptul că sunt un adept, în loc de un lider, mă pune în defensivă.",
                 "emotions": "Simt disperare, mânie şi furie când nu mă ridic la înălţimea standardelor mele şi nu îmi ating obiectivele. Mă pot supăra când oamenii nu sunt de acord cu valorile și credințele mele și conducerea mea. Pot fi nerăbdător/nerăbdătoare și iritabil/ă."
             },
@@ -205,7 +205,7 @@
                 },
                 {
                     "id": 1,
-                    "name": "Siguranță",
+                    "name": "Certitudine",
                     "couples": [{
                         "name": "Importanță și certitudine",
                         "text": "Trebuie să răspundeți reciproc nevoii de semnificație, astfel încât să nu o găsiți în afara relației. Trebuie să puteți împărtăși cel puțin unele dintre strategiile care vă oferă certitudine."
@@ -270,7 +270,7 @@
                 },
                 {
                     "id": 1,
-                    "name": "Siguranță",
+                    "name": "Certitudine",
                     "couples": [{
                         "name": "Iubire/conexiune și certitudine",
                         "text": "Amândoi trebuie să fiţi atenţi să nu condiţionaţi acordarea şi primirea iubirii de gradul de certitudine pe care îl simţiţi. Trebuie să poți tolera un anumit grad de incertitudine și să îți lași inima deschisă iubirii."
@@ -347,7 +347,7 @@
                 },
                 {
                     "id": 1,
-                    "name": "Siguranță",
+                    "name": "Certitudine",
                     "couples": [{
                         "name": "Dezvoltare și certitudine",
                         "text": "Aveţi acelaşi conflict intern, deoarece creşterea implică întotdeauna o anumită incertitudine, ceea ce este dificil pentru voi să toleraţi. Puteți fi foarte compatibili atâta timp cât folosiți aceleași strategii pentru a vă satisface nevoile de certitudine și creștere. Altfel, puteți să vă distanțați unul de celălalt."

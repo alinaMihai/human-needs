@@ -45,13 +45,11 @@
             "support": "How Others Can Support You In Your Goal"
         },
         "secondNeedTitle": "Your Second Need is for",
-        "seccondNeed": {
-            "couples": {
-                "title": "Couples by First Two Needs",
-                "para1": "If your first two needs are for",
-                "para2": "and",
-                "para3": "and your partner's first two needs are for"
-            }
+        "couples": {
+            "title": "Couples by First Two Needs",
+            "para1": "If your first two needs are for",
+            "para2": "and",
+            "para3": "and your partner's first two needs are for"
         },
         "credit": "is the author of the original test (paper form), so she deserves credit for any insights you received here."
     }
