@@ -9,6 +9,7 @@
     "optionNo": "Nu",
     "previous": "Înapoi",
     "next": "Înainte",
+    "seeResults": "Vezi rezultatele",
     "results": {
         "title": "Iată interpretarea rezultatelor tale",
         "subtitle": "Nevoile tale (un scor mai mare înseamnă că acea nevoie îți influențează deciziile în viață mai mult):",
@@ -30,7 +31,7 @@
             "focus": "Atenție",
             "energy": "Energie",
             "health": "Sănătate",
-            "avoidance": "Ce să evit",
+            "avoidance": "Ce evit",
             "strengths": "Puncte forte",
             "communicationStyle": "Stil de comunicare",
             "stress": "Stres",

@@ -59,7 +59,7 @@ const QuestionSet = ({handleSubmit, nextQuestion}) => {
              {currentIndex < questionsNo && <button type="button" className="nextBtn" onClick={goNext} disabled={isNextDisabled()}>
              {t('translation:next')}
             </button>}
-            {currentIndex === questionsNo && <button type="button" disabled={isSubmitDisabled()} onClick={() => handleSubmit(answers)}>See results</button>}
+    {currentIndex === questionsNo && <button type="button" disabled={isSubmitDisabled()} onClick={() => handleSubmit(answers)}>{t('translation:seeResults')}</button>}
             </div>
         </div>
     );
