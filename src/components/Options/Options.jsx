@@ -17,21 +17,24 @@ const Options = ({onAnswer, selected, id}) => {
                 name={id}
                 checked={selectedValue === '10'}
                 onChange={onAnswer}/>
-                <span>{t('translation:optionYes')}</span></label>
+                <span>{t('translation:optionYes')}</span>
+            </label>
             <label><input
                 type='radio'
                 value={5}
                 name={id}
                 checked={selectedValue === '5'}
                 onChange={onAnswer}/>
-                <span>{t('translation:optionPartly')}</span></label>
+                <span>{t('translation:optionPartly')}</span>
+            </label>
             <label><input
                 type='radio'
                 value={0}
                 name={id}
                 checked={selectedValue === '0'}
                 onChange={onAnswer}/>
-                <span>{t('translation:optionNo')}</span></label>
+                <span>{t('translation:optionNo')}</span>
+            </label>
         </div>
     );
 };
