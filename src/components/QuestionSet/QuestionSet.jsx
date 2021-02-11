@@ -1,6 +1,5 @@
 import React, {useState } from 'react';
 import {useTranslation} from 'react-i18next';
-import 'rc-progress/assets/index.css';
 import './QuestionSet.css';
 import Question from '../Question/Question';
 const questionsNo = 84;
