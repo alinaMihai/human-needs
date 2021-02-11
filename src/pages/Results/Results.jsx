@@ -1,58 +1,58 @@
-import React, {useEffect, useState, useCallback} from 'react';
+import React, {useEffect, useState} from 'react';
 import {useTranslation} from 'react-i18next';
 import {interpretAnswers} from '../../helpers/interpretAnswers';
 import './Results.css';
 import ResultsChart from './ResultsChart/ResultsChart';
 
 
+const getFirstTwoNeeds = (results = [], needs) => {
+    const [firstNeed,
+        secondNeed] = [...results].sort((a, b) => {
+        return b.value - a.value
+    });
+    const firstNeedData = needs.find(need => need.id === firstNeed.id);
+    const secondNeedData = !!firstNeedData.secondNeed
+        ? firstNeedData
+            .secondNeed
+            .find(need => need.id === secondNeed.id)
+        : {couples: []};
+    return {
+        firstNeed: firstNeedData,
+        secondNeed: secondNeedData
+    }
+}
+
+const getChartSeries = (answers) => answers.map(answer =>  answer.value)
 
 const Results = () => {
   const {t} = useTranslation();
   const needs = t('needs:needs');
-    const [answersData, setAnswersData] = useState({});
-    const [results,
-        setResults] = useState();
-    const [answers,
-        setAnswers] = useState([]);
-    const [chartSeries,
-        setChartSeries] = useState([]);
-    const getFirstTwoNeeds = (results = []) => {
-        const [firstNeed,
-            secondNeed] = [...results].sort((a, b) => {
-            return b.value - a.value
-        });
-        return {
-            firstNeed: needs.find(need => need.id === firstNeed.id),
-            secondNeed: secondNeed.id
-        }
+  const [answers,setAnswers] = useState([]);
+
+  useEffect(() => {
+    const answersData = JSON.parse(localStorage.getItem('answers'));
+    setAnswers(interpretAnswers(answersData));
+}, []);
+
+   const getMobileStatistics = (answers) => {
+      return [...answers].sort((a, b) => {
+                return b.value - a.value
+            }).map((answer, i) => (
+                <div key={i} className="need">
+                    <strong>{answer.name}: </strong><span>{answer.value} / 140</span>
+                </div>
+            ));
     }
-
-    useEffect(() => {
-       setAnswersData(JSON.parse(localStorage.getItem('answers')));
-    }, []);
-
-    useEffect(() => {
-        if (!answers.length) {
-            return;
-        }
-        setChartSeries(answers.map((answer) => {
-            return answer.value
-        }));
-    }, [answers]);
-
-    const getDisplayResults = useCallback((answers) => {
+        
+    const getDisplayResults =(answers, needs) => {
         if (!answers.length) {
             return;
         }
         const {
             firstNeed = {},
             secondNeed
-        } = getFirstTwoNeeds(answers);
-        const secondNeedData = !!firstNeed.secondNeed
-            ? firstNeed
-                .secondNeed
-                .find(need => need.id === secondNeed)
-            : {};
+        } = getFirstTwoNeeds(answers, needs);
+  
         return (
             <div>
                 <h1 className="section"> {t('translation:results.firstNeed')} {firstNeed.name}</h1>
@@ -85,44 +85,34 @@ const Results = () => {
                   {name:  t('translation:results.growthBalance.support'), value: firstNeed.growthBalance.support}]
                 .map((item, i) => <div key={i}><div className="title">{item.name}</div><div>{item.value}</div></div>)}
 
-                <h4 className="section">{t('translation:results.secondNeedTitle')} {secondNeedData.name}</h4>
-                <div>{secondNeedData.text}</div> 
-                {secondNeedData.couples.length > 0 && <><h5 className="section">{t('translation:results.couples.title')}</h5>
-                {secondNeedData.couples.map((couple, i) => (<div key={i} className="couple">
-                    <div className="title">{t('translation:results.couples.para1')} <strong>{firstNeed.name}</strong> {t('translation:results.couples.para2')} <strong>{secondNeedData.name}</strong> {t('translation:results.couples.para3')} <strong>{couple.name}</strong>
+                <h4 className="section">{t('translation:results.secondNeedTitle')} {secondNeed.name}</h4>
+                <div>{secondNeed.text}</div> 
+                {secondNeed.couples.length > 0 && <><h5 className="section">{t('translation:results.couples.title')}</h5>
+                {secondNeed.couples.map((couple, i) => (<div key={i} className="couple">
+                    <div className="title">
+                        {t('translation:results.couples.para1')} <strong>{firstNeed.name}</strong>
+                     {t('translation:results.couples.para2')} <strong>{secondNeed.name}</strong>
+                      {t('translation:results.couples.para3')} <strong>{couple.name}</strong>
                 </div><div>{couple.text}</div>
                 
                 </div>))}
                 </>}
             </div>
         );
-         // eslint-disable-next-line
-    }, []);
-
-    useEffect(() => {
-        const interpretedAnswers = interpretAnswers(answersData);
-        setAnswers(interpretedAnswers);
-        setResults(getDisplayResults(interpretedAnswers));
-    }, [getDisplayResults, answersData]);
+    };
 
     return (
         <div className="resultsContainer">
             <h1>{t('translation:results.title')}</h1>
             <div className="chart">
             {t('translation:results.subtitle')}
-            <ResultsChart series={chartSeries}/>
+            <ResultsChart series={getChartSeries(answers)}/>
             </div> 
             <div className="numbers">
                 {t('translation:results.subtitle')}
-                {[...answers].sort((a, b) => {
-            return b.value - a.value
-        }).map((answer, i) => (
-                    <div key={i} className="need">
-                        <strong>{answer.name}: </strong><span>{answer.value} / 140</span>
-                    </div>
-                ))} 
+                {getMobileStatistics(answers)} 
             </div>
-            {results}
+            {getDisplayResults(answers, needs)}
             <footer>
              <br/>
             <a href=" https://cloemadanes.com/" target="_blank" title="Cloé Madanes's site" rel="noopener noreferrer" ><strong>Cloé Madanes</strong></a> {t('translation:results.credit')}
