@@ -90,8 +90,8 @@ const Results = () => {
                 {secondNeed.couples.length > 0 && <><h5 className="section">{t('translation:results.couples.title')}</h5>
                 {secondNeed.couples.map((couple, i) => (<div key={i} className="couple">
                     <div className="title">
-                        {t('translation:results.couples.para1')} <strong>{firstNeed.name}</strong>
-                     {t('translation:results.couples.para2')} <strong>{secondNeed.name}</strong>
+                        {t('translation:results.couples.para1')}{" "}<strong>{firstNeed.name}</strong>{" "}
+                     {t('translation:results.couples.para2')}{" "}<strong>{secondNeed.name}</strong>{" "}
                       {t('translation:results.couples.para3')} <strong>{couple.name}</strong>
                 </div><div>{couple.text}</div>
                 
